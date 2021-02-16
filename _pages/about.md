@@ -1,1 +1,11 @@
+---
+permalink: /
+title: "Welcome to my web page"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 My current scientific work relates to the field of turbulence, and focuses on the fine statistical study of the turbulent dynamics of small complex particles, where they complexity if found in terms of their shape or their rheology. This kind of problem is present in several natural environments as the dynamics of micro-algae that can clog the cooling circuits of thermal power plants, or in the influence of the preferential concentration patterns of diatoms regularly observed at kilometric scales in the Arctic seas.
