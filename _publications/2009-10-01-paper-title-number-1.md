@@ -1,8 +1,7 @@
 ---
 title: "Stretching and buckling of small elastic fibers in turbulence"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+permalink: /publication/allende2018dynamics
 date: 2018/10/12
 venue: 'Physical review letters'
 paperurl: 'http://sofiallende.github.io/files/allende2018dynamics.pdf'
