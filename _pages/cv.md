@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * 2021, PhD Student
-“Dynamics and Statistics of Elongated and Flexible Particles in Turbulent Flows” 
+“Dynamics and Statistics of Elongated and Flexible Particles in Turbulent Flows” \\
 CEMEF, MINES ParisTech, Sophia Antipolis, France. Supervised by : Jérémie Bec.
 
 * 2017, Master M2 research in Physics : “Diphasic flows, energy and combustion” Université Aix- Marseille, France.
@@ -37,9 +37,9 @@ The thesis intended to develop a fast numerical discontinuous Galerkin scheme in
 Skills
 ======
 * Numerical skills
- * Advanced use of parallel computing in Unix and MacOS environments, as well as data analysis software (Matlab, Paraview, Python) and scientific editing (LaTeX and Keynote).
- * Common use of C++ , Fortran, and Mathematica languages.
- * Occasional use of specialized software such as STAR CCM+, CATIA V5, SIMSOL, AutoCAD.
+  * Advanced use of parallel computing in Unix and MacOS environments, as well as data analysis software (Matlab, Paraview, Python) and scientific editing (LaTeX and Keynote).
+  * Common use of C++ , Fortran, and Mathematica languages.
+  * Occasional use of specialized software such as STAR CCM+, CATIA V5, SIMSOL, AutoCAD.
  
 * Languages
 Spanish (mother tongue), French (fluent), English (good knowledge).
