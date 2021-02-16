@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Sofia Allende"
   avatar           : "photo.jpeg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "PhD student in Physics"
   location         : "Nice, France"
   employer         :
 #  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/sofia-allende-6273671bb/"
+  linkedin         : "https://www.linkedin.com/in/sofia-allende-6273671bb/?originalSubdomain=fr"
 #  orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/AllendeContador"
+  twitter          : "https://twitter.com/allendecontador"
   vine             :
   weibo            :
   xing             :
