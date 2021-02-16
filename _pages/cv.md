@@ -11,10 +11,14 @@ redirect_from:
 
 Education
 ======
-* 2021, PhD Student, “Dynamics and Statistics of Elongated and Flexible Particles in Turbulent Flows” 
+* 2021, PhD Student
+“Dynamics and Statistics of Elongated and Flexible Particles in Turbulent Flows” 
 CEMEF, MINES ParisTech, Sophia Antipolis, France. Supervised by : Jérémie Bec.
+
 * 2017, Master M2 research in Physics : “Diphasic flows, energy and combustion” Université Aix- Marseille, France.
+
 * 2017, Degree in Mechanical and energy engineering. Polytech Marseille, France.
+
 * 2017, Degree in industrial engineering. Universidad técnica Federico Santa María.
 
 Research
