@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sofia Allende"
+title                    : "General"
 title_separator          : "-"
 name                     : &name "Sofia Allende"
 description              : &description "PhD student"
