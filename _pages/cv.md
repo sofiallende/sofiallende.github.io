@@ -28,14 +28,12 @@ Research
 ======
 * 2017-2020, PhD Thesis. CEMEF, MINES ParisTech, Sophia Antipolis, France.  <br />
 “Dynamics and Statistics of Elongated and Flexible Particles in Turbulent Flows”, supervised by J. Bec  <br />
-
 The thesis intends to study the dynamics of small complex particles suspended in turbulent flows, relying on massive numerical simulations and systematic statistical analysis. We analyze the effects of shapes, mass and rheology on the turbulent dynamics of small particles and develop statistical models of turbulent fragmentation.
 
 * 2019, International collaboration with SS Ray (two months). ICTS, Bangalore, India. “Flexible fibers in a turbulent channel flow”
 
 * 2017, Master thesis. LAGRANGE team, Observatoire de la côte d’Azur, Nice, France.  <br />
 “Numerical study of a compressible turbulent flow,” supervised by H. Homann.  <br />
-
 The thesis intended to develop a fast numerical discontinuous Galerkin scheme in C++, to simulate compressible fluids.
 
   
