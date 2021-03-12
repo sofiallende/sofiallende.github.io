@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* 2021, PhD Student
+* 2021, PhD 
 “Dynamics and Statistics of Elongated and Flexible Particles in Turbulent Flows”  <br />
 CEMEF, MINES ParisTech, Sophia Antipolis, France. Supervised by : Jérémie Bec.
 
@@ -26,7 +26,7 @@ Universidad técnica Federico Santa María.
 
 Research
 ======
-* 2017-2020, PhD Thesis. CEMEF, MINES ParisTech, Sophia Antipolis, France.  <br />
+* 2017-2021, PhD Thesis. CEMEF, MINES ParisTech, Sophia Antipolis, France.  <br />
 “Dynamics and Statistics of Elongated and Flexible Particles in Turbulent Flows”, supervised by J. Bec  <br />
 The thesis intends to study the dynamics of small complex particles suspended in turbulent flows, relying on massive numerical simulations and systematic statistical analysis. We analyze the effects of shapes, mass and rheology on the turbulent dynamics of small particles and develop statistical models of turbulent fragmentation.
 
