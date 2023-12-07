@@ -1,7 +1,7 @@
 ---
 title: " Modulation of the seasonal cycle of the Antarctic sea ice extent by sea ice processes and feedbacks with the ocean and the atmosphere"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/2010-10-01-paper-title-number-3
 date: 2023/1/01
 venue: 'The Cryosphere'
 paperurl: 'http://sofiallende.github.io/files/gossemodulation2023.pdf'
