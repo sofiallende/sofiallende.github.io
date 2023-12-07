@@ -15,9 +15,7 @@ author_profile: true
 {% endfor %}
 
 ---
-layout: archive
 title: "Coming soon"
-author_profile: true
 ---
 
 Allende, S. 2023. “Impact of ocean vertical mixing parametrization on sea ice properties using NEMO-SI3 model”. Target Journal: Geoscientific Model Development
