@@ -13,5 +13,5 @@ I am a postdoctoral researcher in physics and oceanography. My recent work focus
 
 
 <img src='/images/1024_256.png'
-      height="50px"
-      width="50px">
+      height="100px"
+      width="100px">
