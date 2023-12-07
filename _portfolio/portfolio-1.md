@@ -2,7 +2,7 @@
 title: "Ocean-sea ice interactions"
 excerpt: "Interactions in Arctic regions <br/><img src='/images/nemo_EXP_contorl_mldnorth_spatial19702021_septmars.png' 
                                                 width="10" 
-                                                height="10">"
+                                                height="10" />"
 collection: portfolio
 ---
 cambio
