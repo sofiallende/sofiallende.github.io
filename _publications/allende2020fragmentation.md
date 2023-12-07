@@ -1,7 +1,7 @@
 ---
 title: "Dynamics and fragmentation of small inextensible fibres in turbulence"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/2010-10-01-paper-title-number-4
 date: 2020/7/10
 venue: 'Philosophical Transactions of the Royal Society A'
 paperurl: 'http://sofiallende.github.io/files/allende2020fragmentation.pdf'
