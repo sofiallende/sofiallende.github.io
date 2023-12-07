@@ -1,6 +1,6 @@
 ---
 title: "Ocean-sea ice interactions"
-excerpt: "Interactions in Arctic regions <br/><img src='/images/nemo_EXP_contorl_mldnorth_spatial19702021_septmars.png'>"
+excerpt: "Non-spherical particles transported by turbulent flow <br/><img src='/images/1024_256.png'>"
 collection: portfolio
 ---
 
