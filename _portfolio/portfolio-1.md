@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Ocean-sea ice interactions"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/bathy_Arctic2.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+My recent work focuses on studying the oceanic mixed layer in the Arctic Ocean, involving complex physical interactions between ocean, sea ice, and atmosphere. This work is based on systematic statistical analyses of oceanographic datasets from general circulation models, in situ observation campaigns, and satellite data.
