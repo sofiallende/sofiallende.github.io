@@ -1,7 +1,6 @@
 ---
 title: "Ocean-sea ice interactions"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/nemo_EXP_contorl_mldnorth_spatial19702021_septmars.png'  height="300px"
-      width="300px">"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/nemo_EXP_contorl_mldnorth_spatial19702021_septmars.png'>"
 collection: portfolio
 ---
 
