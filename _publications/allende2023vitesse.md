@@ -1,7 +1,7 @@
 ---
 title: "Velocity and acceleration statistics of heavy spheroidal particles in turbulence"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/2010-10-01-paper-title-number-4
 date: 2023/7/10
 venue: 'Journal of Fluid Mechanics'
 paperurl: 'http://sofiallende.github.io/files/allende2023velocity.pdf'
