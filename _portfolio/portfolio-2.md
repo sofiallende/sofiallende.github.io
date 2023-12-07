@@ -1,6 +1,6 @@
 ---
 title: "Complex particles in a tubulent flow"
-excerpt: "Non-spherical particles transported by turbulent flow <br/><img src='/images/1024_512.png'>"
+excerpt: "Non-spherical particles transported by turbulent flow <br/><img src='/images/1024_256.png'>"
 collection: portfolio
 ---
 
