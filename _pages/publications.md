@@ -14,3 +14,13 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
+---
+layout: archive
+title: "Coming soon"
+author_profile: true
+---
+
+Allende, S. 2023. “Impact of ocean vertical mixing parametrization on sea ice properties using NEMO-SI3 model”. Target Journal: Geoscientific Model Development
+
+
+Bec, J. and Allende, S. 2023. “Small-scale alignment and clusters of heavy inertial spheroids in turbulent flow”. Target Journal: Physical review letters
