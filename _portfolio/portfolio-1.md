@@ -1,6 +1,6 @@
 ---
 title: "Ocean-sea ice interactions"
-excerpt: "Non-spherical particles transported by turbulent flow <br/><img src='/images/1024_256.png'>"
+excerpt: " <br/><img src='/images/1024_256.png'>"
 collection: portfolio
 ---
 
