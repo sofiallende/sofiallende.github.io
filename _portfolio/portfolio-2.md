@@ -19,6 +19,6 @@ We found that translational and rotational motion are decoupled for small inerti
 
 We find that the dynamics most often resemble those of a rigid rod for small, inertial-free fibers. However, in sporadic and intermittent episodes, the fibers undergo violent buckling events, which are correlated with strong local compressions exerted by the local turbulent flow. Moreover, detailed statistical investigations reveal that flexibility also produces fiber misalignments, such as deviations in orientation statistics compared to the dynamics of a completely rigid rod. Our most salient observation is that the coupling between such flexible fibers and turbulence can be modeled phenomenologically in terms of various activation processes, both for the buckling rate and for the misalignment statistics.
 
-<img src="/images/snap_t1.png" width="200">
-<img src="/images/snap_t2.png" width="200">
-<img src="/images/snap_t3.png" width="200">
+<img src="/images/snap_t1.png" width="400">
+<img src="/images/snap_t2.png" width="400">
+<img src="/images/snap_t3.png" width="400">
