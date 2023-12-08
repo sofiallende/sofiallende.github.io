@@ -1,6 +1,6 @@
 ---
 title: "Complex particles in a tubulent flow"
-excerpt: " <br/><img src='/images/1024_256.png=100x20'>"
+excerpt: " <br/><img src='/images/1024_256.png'>"
 collection: portfolio
 ---
 
