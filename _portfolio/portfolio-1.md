@@ -1,6 +1,6 @@
 ---
 title: "Ocean-sea ice interactions"
-excerpt: " <br/><img width="10" src='/images/nemo_EXP_contorl_mldnorth_spatial19702021_septmars.png'>"
+excerpt: " <br/><img src='/images/nemo_EXP_contorl_mldnorth_spatial19702021_septmars.png'>"
 collection: portfolio
 ---
 
