@@ -14,11 +14,9 @@ NEMO-SI3 model
 We aim here to assess the ability of the mixing turbulent kinetic energy scheme to reproduce the upper ocean and sea ice properties along the Arctic Ocean. 
 We use the NEMO-SI3 general circulation model forced by ERA-5 reanalysis. 
 
-<img src="/images/nemo_EXP_contorl_mldnorth_spatial19702021_septmars.png" width="200">
-
-<img src="/images/nemo_EXP_contorl_siconcnorth_spatial19702021_septmars.png" width="200">
-
-<img src="/images/nemo_EXP_control_sithicnorth_spatial19702021_septmars.png" width="200">
+<img src="/images/nemo_EXP_contorl_mldnorth_spatial19702021_septmars.png" width="300">
+<img src="/images/nemo_EXP_contorl_siconcnorth_spatial19702021_septmars.png" width="300">
+<img src="/images/nemo_EXP_control_sithicnorth_spatial19702021_septmars.png" width="300">
 
 
 Inter-comparaison of OMIP models
