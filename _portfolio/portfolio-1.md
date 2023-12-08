@@ -11,7 +11,7 @@ My recent work focuses on studying the oceanic mixed layer in the Arctic Ocean, 
 NEMO-SI3 model
 ---
 
-We aim here to assess the ability of the mixing turbulent kinetic energy scheme to reproduce the upper ocean and sea ice properties along the Arctic Ocean. <be>
+We aim here to assess the ability of the mixing turbulent kinetic energy scheme to reproduce the upper ocean and sea ice properties along the Arctic Ocean. 
 We use the NEMO-SI3 general circulation model forced by ERA-5 reanalysis. 
 
 <img src="/images/nemo_EXP_contorl_mldnorth_spatial19702021_septmars.png" width="400">
