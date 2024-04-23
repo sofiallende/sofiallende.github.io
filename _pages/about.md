@@ -14,9 +14,3 @@ This work is based on systematic statistical exploitation of large oceanographic
   <img src="/images/20220309_SeaIceGreenland.jpg" width="400">
 </p>
 
-<div class="warning" style='background-color:#EDF2F7; color:#1A2067; border-left: solid #718096 4px; border-radius: 4px;'>
-<p style='padding:0.7em; margin-left:0.7em; display: inline-block;'>
-<img src="/images/20220309_SeaIceGreenland.jpg" width="400">
-<b>isomorphism</b>  &rarr;  In mathematics, an isomorphism is a structure-preserving mapping between two structures of the same type that can be reversed by an inverse mapping.<br>
-</p>
-</div>
