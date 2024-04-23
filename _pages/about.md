@@ -11,6 +11,6 @@ redirect_from:
 <p style="display:inline-block;">
 <p> <h4 class="text"> I am a postdoctoral researcher in physics and oceanography. My recent work focuses on studying the oceanic mixed layer in the Arctic Ocean, involving complex physical interactions between the ocean, sea ice, and atmosphere. 
 This work is based on systematic statistical exploitation of large oceanographic data sets from general circulation models, in situ observational campaigns, and satellite data. Additionally, my scientific work relates to the field of turbulence and focuses on the fine statistical study of the turbulent dynamics of small complex particles. Such particles appear in both industrial and natural environments, from micro-algae that can clog the cooling circuits of thermal power plants, to diatoms that preferentially concentrate on kilometric scales in the Arctic seas. </h4> </p> 
-  <img align="left" src="/images/20220309_SeaIceGreenland.jpg" width="400">
+  <img align="right" src="/images/20220309_SeaIceGreenland.jpg" width="400">
 </p>
 
