@@ -9,15 +9,8 @@ redirect_from:
 ---
 
 <p style="display:inline-block;">
-<p> I am a postdoctoral researcher in physics and oceanography. My recent work focuses on studying the oceanic mixed layer in the Arctic Ocean, involving complex physical interactions between the ocean, sea ice, and atmosphere. 
-This work is based on systematic statistical exploitation of large oceanographic data sets from general circulation models, in situ observational campaigns, and satellite data. Additionally, my scientific work relates to the field of turbulence and focuses on the fine statistical study of the turbulent dynamics of small complex particles. Such particles appear in both industrial and natural environments, from micro-algae that can clog the cooling circuits of thermal power plants, to diatoms that preferentially concentrate on kilometric scales in the Arctic seas. </p>
+<p> <h2 class="text"> I am a postdoctoral researcher in physics and oceanography. My recent work focuses on studying the oceanic mixed layer in the Arctic Ocean, involving complex physical interactions between the ocean, sea ice, and atmosphere. 
+This work is based on systematic statistical exploitation of large oceanographic data sets from general circulation models, in situ observational campaigns, and satellite data. Additionally, my scientific work relates to the field of turbulence and focuses on the fine statistical study of the turbulent dynamics of small complex particles. Such particles appear in both industrial and natural environments, from micro-algae that can clog the cooling circuits of thermal power plants, to diatoms that preferentially concentrate on kilometric scales in the Arctic seas. </h2> </p> 
   <img src="/images/20220309_SeaIceGreenland.jpg" width="400">
 </p>
 
-<div class="full-width">
-    <div class="text-center">
-        <h2 class="text">I am a postdoctoral researcher in physics and oceanography. My recent work focuses on studying the oceanic mixed layer in the Arctic Ocean, involving complex physical interactions between the ocean, sea ice, and atmosphere. 
-This work is based on systematic statistical exploitation of large oceanographic data sets from general circulation models, in situ observational campaigns, and satellite data. Additionally, my scientific work relates to the field of turbulence and focuses on the fine statistical study of the turbulent dynamics of small complex particles. Such particles appear in both industrial and natural environments, from micro-algae that can clog the cooling circuits of thermal power plants, to diatoms that preferentially concentrate on kilometric scales in the Arctic seas..</h2>
-    </div>
-    <img src="http://lorempixel.com/output/animals-q-c-640-250-4.jpg"/>
-</div>
