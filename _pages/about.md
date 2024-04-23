@@ -13,3 +13,11 @@ redirect_from:
 <img align="right" src="/images/20220309_SeaIceGreenland.jpg" width="300">
 </p>
 
+<div class="image-left">
+	<img src="https://source.unsplash.com/640x460?girl" alt="Text with image example">
+	<div>
+<h2> Text with Left Image </h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu, massa scelerisque ac, cursus et, sollicitudin a, orci.</p>
+		<footer>(A dummy text)</footer>
+	</div>
+</div>
