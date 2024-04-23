@@ -14,3 +14,9 @@ This work is based on systematic statistical exploitation of large oceanographic
   <img src="/images/20220309_SeaIceGreenland.jpg" width="400">
 </p>
 
+<div class="full-width">
+    <div class="text-center">
+        <h2 class="text">Lorem ipsum dolor.</h2>
+    </div>
+    <img src="http://lorempixel.com/output/animals-q-c-640-250-4.jpg"/>
+</div>
