@@ -13,3 +13,10 @@ redirect_from:
 This work is based on systematic statistical exploitation of large oceanographic data sets from general circulation models, in situ observational campaigns, and satellite data. Additionally, my scientific work relates to the field of turbulence and focuses on the fine statistical study of the turbulent dynamics of small complex particles. Such particles appear in both industrial and natural environments, from micro-algae that can clog the cooling circuits of thermal power plants, to diatoms that preferentially concentrate on kilometric scales in the Arctic seas. </p>
   <img src="/images/20220309_SeaIceGreenland.jpg" width="400">
 </p>
+
+<div class="warning" style='background-color:#EDF2F7; color:#1A2067; border-left: solid #718096 4px; border-radius: 4px;'>
+<p style='padding:0.7em; margin-left:0.7em; display: inline-block;'>
+<img src="/images/20220309_SeaIceGreenland.jpg" style="zoom:70%;  float:right; padding:0.7em"/>
+<b>isomorphism</b>  &rarr;  In mathematics, an isomorphism is a structure-preserving mapping between two structures of the same type that can be reversed by an inverse mapping.<br>
+</p>
+</div>
