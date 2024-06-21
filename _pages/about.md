@@ -10,9 +10,10 @@ redirect_from:
 
 <div>
     <p>
-      <img src="/images/20230412_SeaIceCover.jpg" width="490" align='right' />
-    <h4>  </h4>
+      <img src="/images/20230412_SeaIceCover.jpg" width="500" align='right' />
+    <h2>
      I am a postdoctoral researcher in physics and oceanography. My research focuses on the study of the physical processes at the ocean-sea ice boundary. My work is based on systematic statistical exploitation of high-numerical resolutions, large oceanographic data sets from general circulation models, in situ observational campaigns, and satellite data.
+    </h2>
    </p>
    <br>
    <br>
