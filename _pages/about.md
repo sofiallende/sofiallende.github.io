@@ -9,9 +9,9 @@ redirect_from:
 ---
 
 <div>
+    <h4>
     <p>
       <img src="/images/20230412_SeaIceCover.jpg" width="500" align='right' />
-    <h4>
      I am Sofia Allende, a postdoctoral researcher specializing in physics and oceanography. My research focuses on the physical processes at the ocean-sea ice boundary. My work is based on systematic statistical exploitation of high-numerical resolutions, large oceanographic data sets from general circulation models, in situ observational campaigns, and satellite data.
    </p>
    <br>
