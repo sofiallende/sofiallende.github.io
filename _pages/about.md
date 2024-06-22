@@ -11,7 +11,7 @@ redirect_from:
 <div>
 <br>
     <p>
-      <img src="/images/20230412_SeaIceCover.jpg" width="800" align='right' />
+      <img src="/images/20230412_SeaIceCover.jpg" width="500" align='right' />
      I am Sofia Allende, a postdoctoral researcher specializing in physics and oceanography. My research focuses on the physical processes at the ocean-sea ice boundary. My work is based on systematic statistical exploitation of high-numerical resolutions, large oceanographic data sets from general circulation models, in situ observational campaigns, and satellite data.
    </p>
    <br>
@@ -20,6 +20,6 @@ redirect_from:
    </p>
    <br>
    <p>
-    My previous work focuses on studying the oceanic mixed layer in the Arctic Ocean, involving complex physical interactions between the ocean, sea ice, and atmosphere. Additionally, my scientific work relates to the field of turbulence and focuses on the fine statistical study of the turbulent dynamics of small complex particles. Such particles appear in both industrial and natural environments, from micro-algae that can clog the cooling circuits of thermal power plants to diatoms that preferentially concentrate on kilometric scales in the Arctic seas.
+    My previous work focuses on studying the oceanic mixed layer in the Arctic Ocean, involving complex physical interactions between the ocean, sea ice, and atmosphere. Additionally, my scientific work relates to the field of turbulence and focuses on the fine statistical study of the turbulent dynamics of small complex particles. Such particles appear in both industrial and natural environments, from micro-algae that can clog the cooling circuits of thermal power plants to diatoms that preferentially concentrate on kilometric scales in the Arctic seas. 
    </p>
 </div>
