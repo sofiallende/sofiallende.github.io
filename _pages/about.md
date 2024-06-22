@@ -7,9 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<br>
+<br>
 <img src="/images/20220309_SeaIceGreenland_2.jpg" align='right' />
-
+<br>
+<br>
 <div>
     <br>
     <p>
@@ -22,8 +24,5 @@ redirect_from:
     <br>
     <p>
     My previous work focuses on studying the oceanic mixed layer in the Arctic Ocean, involving complex physical interactions between the ocean, sea ice, and atmosphere. Additionally, my scientific work relates to the field of turbulence and focuses on the fine statistical study of the turbulent dynamics of small complex particles. Such particles appear in both industrial and natural environments, from micro-algae that can clog the cooling circuits of thermal power plants to diatoms that preferentially concentrate on kilometric scales in the Arctic seas. 
-    </p>
-    <p>
-      <img src="/images/20220309_SeaIceGreenland_2.jpg" align='right' />
     </p>
 </div>
