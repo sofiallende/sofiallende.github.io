@@ -8,12 +8,10 @@ redirect_from:
   - /about.html
 ---
 <br>
+<div>
 <img src="/images/20220309_SeaIceGreenland_2.jpg" align='right' />
 <br>
-<br>
-<br>
-<br>
-.
+</div>
 <div>
     <br>
     <p>
