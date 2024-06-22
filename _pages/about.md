@@ -11,7 +11,8 @@ redirect_from:
 <div>
 <br>
     <p>
-      <img src="/images/20220309_SeaIceGreenland_2.jpg" width="700" align='right' />
+      <img src="/images/20220309_SeaIceGreenland_2.jpg" width="800" align='right' />
+    <br>
      I am Sofia Allende, a postdoctoral researcher specializing in physics and oceanography. My research focuses on the physical processes at the ocean-sea ice boundary. My work is based on systematic statistical exploitation of high-numerical resolutions, large oceanographic data sets from general circulation models, in situ observational campaigns, and satellite data.
    </p>
    <br>
