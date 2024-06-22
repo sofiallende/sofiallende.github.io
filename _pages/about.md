@@ -12,6 +12,8 @@ redirect_from:
 <img src="/images/20220309_SeaIceGreenland_2.jpg" align='right' />
 <br>
 </div>
+<br>
+<br>
 <div>
     <br>
     <p>
