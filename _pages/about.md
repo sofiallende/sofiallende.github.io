@@ -10,11 +10,10 @@ redirect_from:
 
 <div>
 <br>
-    <p>
       <img src="/images/20220309_SeaIceGreenland_2.jpg" width="800" align='right' />
     <br>
      I am Sofia Allende, a postdoctoral researcher specializing in physics and oceanography. My research focuses on the physical processes at the ocean-sea ice boundary. My work is based on systematic statistical exploitation of high-numerical resolutions, large oceanographic data sets from general circulation models, in situ observational campaigns, and satellite data.
-   </p>
+
    <br>
    <p>
     Currently, I am working on the Ocean-Sea Ice Interaction (OSII) project, funded by a Marie Curie postdoctoral fellowship. Our goal is to unravel the multiphysics processes occurring at the ocean-sea ice boundary, promising a more precise understanding of ice melting rates and boundary-layer dynamics resulting from the complex interplay of internal waves, tides, and double diffusion convection.
