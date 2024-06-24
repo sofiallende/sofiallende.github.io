@@ -14,7 +14,7 @@ redirect_from:
 </div>
 <br>
 <br>
-\vspace{1cm}
+.
 <div>
     <br>
     <p>
