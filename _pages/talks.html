@@ -19,3 +19,10 @@ author_profile: true
     <li>Enhancing the vertical mixing parametrization within the NEMO-SI3 general circulation model through insights derived from DNS outcomes.</li>
 </ul>
 
+{% include base_path %}
+
+
+{% for post in site.talks %}
+  {% include archive-single.html %}
+{% endfor %}
+
