@@ -1,10 +1,10 @@
 ---
-title: "First Results"
+title: "Governing Equations at the Ice-Ocean Interface"
 collection: talks
 type: "Talk"
 permalink: /talks/talk-1
 venue: "UC San Francisco, Department of Testing"
-date: 2024-07-04
+date: 2024-08
 location: "Marseille, France"
 ---
 
