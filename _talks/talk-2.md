@@ -8,9 +8,9 @@ date: 2024-08-01
 location: "Marseille, France"
 ---
 
-# Oceananigans.jl Example: Diffusion of Gaussian Temperature and Salinity Tracers
+This Oceananigans.jl example simulates the diffusion of a one-dimensional Gaussian temperature and salinity tracers. 
 
-This Oceananigans.jl example simulates the diffusion of a one-dimensional Gaussian temperature and salinity tracers. The governing equations are:
+The governing equations are:
 
 
 <head>
@@ -25,18 +25,4 @@ This Oceananigans.jl example simulates the diffusion of a one-dimensional Gaussi
     </div>
 </body>
 
-## Install Dependencies
 
-First, ensure that all required packages are installed:
-
-```julia
-using Pkg
-pkg"add Oceananigans, CairoMakie"
-
-# ## Using `Oceananigans.jl`
-#
-# Write
-
-using Oceananigans
-using Printf
-using CairoMakie
