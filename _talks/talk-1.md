@@ -3,7 +3,7 @@ title: "Governing Equations at the Ice-Ocean Interface"
 collection: talks
 type: "Talk"
 permalink: /talks/talk-1
-venue: "UC San Francisco, Department of Testing"
+venue: "IRPHE"
 date: 2024-07-04
 location: "Marseille, France"
 ---
