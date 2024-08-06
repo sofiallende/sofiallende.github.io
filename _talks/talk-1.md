@@ -27,105 +27,103 @@ $$\rho = \rho_0 \left[ 1 - \beta_T (T - T_0) + \beta_S (S - S_0) \right]$$
 
 In this expression:
 
-- $\beta_T$ is the thermal expansion coefficient in \(\text{1/K}\),
-- \(\beta_S\) is the haline contraction coefficient in \(\text{1/(g/kg)}\),
-- \(T\) is the temperature in \(\text{K}\),
-- \(T_0\) is the reference temperature in \(\text{K}\),
-- \(S\) is the salinity in \(\text{g/kg}\),
-- \(S_0\) is the reference salinity in \(\text{g/kg}\),
+- $\beta_T$ is the thermal expansion coefficient in $\text{1/K}$,
+- $\beta_S$ is the haline contraction coefficient in $\text{1/(g/kg)}$,
+- $T$ is the temperature in $\text{K}$,
+- $T_0$ is the reference temperature in $\text{K}$,
+- $S$ is the salinity in $\text{g/kg}$,
+- $S_0$ is the reference salinity in $\text{g/kg}$,
 
 
-The second equation is the continuity equation, which ensures the incompressibility of the fluid. The third and fourth equations describe the transport of temperature and salinity, respectively, where \(\kappa_T\) is the thermal diffusivity and \(\kappa_S\) is the salinity diffusivity.
+The second equation is the continuity equation, which ensures the incompressibility of the fluid. The third and fourth equations describe the transport of temperature and salinity, respectively, where $\kappa_T$ is the thermal diffusivity and $\kappa_S$ is the salinity diffusivity.
 
 ##Ice-ocean boundary conditions
 
-Our setup assumes a homogeneous ice-ocean interface. The temperature at this interface is equal to the melting temperature (\(T_M\)). We also assume that this interface moves with a velocity equal to \(u_z \bigg|_{z=h(t)}=\dot{h}(t)\).
+Our setup assumes a homogeneous ice-ocean interface. The temperature at this interface is equal to the melting temperature $(T_M)$. We also assume that this interface moves with a velocity equal to $u_z \bigg|_{z=h(t)}=\dot{h}(t)$.
 
 To describe the boundary conditions at the ice-ocean interface, we calculate the internal energy of the water
 
-\begin{equation*}
+$$
 E_i (t) = C_p \int_0 ^{L_x} dx \int_0 ^{h(t)} dz \,T(x,z,t),
-\end{equation*}
+$$
 
-where \(T(x,z,t)\) is the seawater temperature and  \(C_p\) is the seawater heat capacity \((J/(kg K))\).
+where $T(x,z,t)$ is the seawater temperature and  $C_p$ is the seawater heat capacity $(J/(kg K))$.
 
 When the ice is melting, the ice thickness decreases and freshwater is released into the ocean, leading to an increase in the interanl energy. This variation is given by:
 
-\begin{equation*}
+$$
 \frac{d}{dt} E_i (t) = C_p \int_0 ^{L_x} dx \,T(x,h(t),t) \, \dot{h}(t) +  C_p \int_0 ^{L_x} dx \int_0 ^{h(t)} dz \,\partial_t T(x,z,t) = L_f L_x u_z
-\end{equation*}
+$$
 
-where \(L_f\) is the latent heat of fusion \((J/kg)\). We can write this expresion as:
+where $L_f$ is the latent heat of fusion $(J/kg)$. We can write this expresion as:
 
-\begin{equation*}
+$$
  \int_0 ^{L_x} dx \int_0 ^{h(t)} dz \,\partial_t T(x,z,t) = \frac{L_f}{C_p} L_x u_z - \int_0 ^{L_x} dx \,T(x,h(t),t) \, \dot{h}(t).
-\end{equation*}
+$$
 
 Therefore,
 
-\begin{equation*}
+$$
  \int_0 ^{L_x} dx \int_0 ^{h(t)} dz \,\partial_t T(x,z,t) =\frac{ L_f}{C_p} L_x u_z - L_x T_M \dot{h}(t)
-\end{equation*}
-
+$$
 
 On the other hand, the temperature transport equation at the ice boundary is given by:
 
-\begin{equation*}
+$$
 \frac{\partial T}{\partial t} + \nabla \cdot ( \mathbf{u} T - \kappa_T \nabla T)=0
-\end{equation*}
+$$
 
-where \( \mathbf{u} T \) represents the advective flux of temperature and \(-\kappa_T \nabla T\) represents the diffusive flux of temperature. Integrating over a control volume \(V\) with surface \(S\), we get:
+where $\mathbf{u} T$ represents the advective flux of temperature and $-\kappa_T \nabla T$ represents the diffusive flux of temperature. Integrating over a control volume $V$ with surface $S$, we get:
 
-\begin{equation*}
+$$
 \int_V \left( \frac{\partial T}{\partial t} + \nabla \cdot (T \mathbf{u} - \kappa_T \nabla T) \right) \, dV = 0
-\end{equation*}
+$$
 
 Applying the divergence theorem:
 
-\begin{equation*}
+$$
 \int_V \frac{\partial T}{\partial t} \, dV + \int_S (T \mathbf{u} - \kappa_T \nabla T) \cdot \mathbf{n} \, dS =0
-\end{equation*}
+$$
 
-where \(\mathbf{n}\) is the unit normal vector to the surface \(S\). For a control volume where the surface $S$ is aligned with the $z$-axis, the surface integral becomes:
+where $\mathbf{n}$ is the unit normal vector to the surface $S$. For a control volume where the surface $S$ is aligned with the $z$-axis, the surface integral becomes:
 
-\begin{equation*}
+$$
 \int_V \frac{\partial T}{\partial t} \, dV + \int_0 ^{L_x} dx  \, (T \mathbf{u} - \kappa_T \nabla T) \cdot \mathbf{e}_z=0
-\end{equation*}
+$$
 
 Thus,
 
-\begin{equation*}
+$$
 \int_V \frac{\partial T}{\partial t} \, dV + L_x T_M u_z  - L_x \kappa_T  \partial _z T=0
-\end{equation*}
+$$
 
 
-Replacing the term \(\int_V \frac{\partial T}{\partial t} \, dV\) with the previously derived result and \(u_z=\dot{h}(t)\), the expression follows as:
+Replacing the term $\int_V \frac{\partial T}{\partial t} \, dV$ with the previously derived result and $u_z=\dot{h}(t)$, the expression follows as:
 
-\begin{equation*}
+$$
 \frac{ L_f}{C_p} L_x u_z - L_x T_M \dot{h}(t) + L_x T_M \dot{h}(t)  - L_x \kappa_T  \partial _z T =0
-\end{equation*}
-
+$$
 
 Finally, the heat boundary condition at the ice-ocean interface can be expressed as:
 
-\begin{equation*}
+$$
 -\kappa_T \partial_z T=\frac{ L_f}{C_p} \dot{h}(t)
-\end{equation*}
+$$
 
 
 We can follow a similar approach for salinity. At the ice-ocean interface, the phase change due to melting or freezing is associated with the salt flux across the boundary, which is given by:
 
-\begin{equation*}
+$$
 -\kappa_S \partial_z S  = S \frac{\partial h}{\partial t}
-\end{equation*}
+$$
 
-where \(S\) is the salinity of the ocean. 
+where $S$ is the salinity of the ocean.
 
 Equating both boundary conditions, we find:
 
-\begin{equation*}
+$$
 \partial_z S = \left(\frac{\kappa_T}{\kappa_S}\right) \left(\frac{C_p}{L_f}\right) S \partial_z T
-\end{equation*}
+$$
 
 
 
