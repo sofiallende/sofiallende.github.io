@@ -37,7 +37,7 @@ In this expression:
 
 The second equation is the continuity equation, which ensures the incompressibility of the fluid. The third and fourth equations describe the transport of temperature and salinity, respectively, where $\kappa_T$ is the thermal diffusivity and $\kappa_S$ is the salinity diffusivity.
 
-##Ice-ocean boundary conditions
+## Ice-ocean boundary conditions
 
 Our setup assumes a homogeneous ice-ocean interface. The temperature at this interface is equal to the melting temperature $(T_M)$. We also assume that this interface moves with a velocity equal to $u_z \bigg|_{z=h(t)}=\dot{h}(t)$.
 
