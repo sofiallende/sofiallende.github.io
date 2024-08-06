@@ -13,7 +13,7 @@ This Oceananigans.jl example simulates the diffusion of a one-dimensional Gaussi
 The governing equations are:
 
 $$
-\partial_t S + \partial_z ( - \kappa_s \partial_z S) = 0
+\partial_t S + \partial_z ( - \kappa_s \partial_z S) = 0\\
 \partial_t T + \partial_z ( - \kappa_T \partial_z T) = 0
 $$
 
