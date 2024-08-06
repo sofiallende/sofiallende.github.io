@@ -21,7 +21,7 @@ $$
 
 
 
-The first equation represents the momentum equation. Here, \(\mathbf{u} = \mathbf{u}(x,y,z)\) denotes the fluid velocity in m/s, \(\rho_0\) is the reference density in \(\text{kg/m}^3\), \(p\) is the pressure in \(\text{Pa}\), and \(\nu\) is the kinematic viscosity in \(\text{m}^2/\text{s}\). The term \(\mathbf{g}\) represents the gravitational acceleration in \(\text{m/s}^2\), and \(\rho\) is the fluid density given by:
+The first equation represents the momentum equation. Here, $\mathbf{u} = \mathbf{u}(x,y,z)$ denotes the fluid velocity in m/s, $\rho_0$ is the reference density in $\text{kg/m}^3$, $p$ is the pressure in $\text{Pa}$, and $\nu$ is the kinematic viscosity in $\text{m}^2/\text{s}$. The term $\mathbf{g}$ represents the gravitational acceleration in $\text{m/s}^2$, and $\rho$ is the fluid density given by:
 
 $$\rho = \rho_0 \left[ 1 - \beta_T (T - T_0) + \beta_S (S - S_0) \right]$$
 
@@ -39,7 +39,7 @@ The second equation is the continuity equation, which ensures the incompressibil
 
 ## Ice-ocean boundary conditions
 
-Our setup assumes a homogeneous ice-ocean interface. The temperature at this interface is equal to the melting temperature $(T_M)$. We also assume that this interface moves with a velocity equal to $u_z \bigg|_{z=h(t)}=\dot{h}(t)$.
+Our setup assumes a homogeneous ice-ocean interface. The temperature at this interface is equal to the melting temperature $(T_M)$. We also assume that this interface moves with a velocity equal to $u_z \mid_{z=h(t)}=\dot{h}(t)$.
 
 To describe the boundary conditions at the ice-ocean interface, we calculate the internal energy of the water
 
