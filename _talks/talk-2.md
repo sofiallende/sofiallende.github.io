@@ -21,4 +21,4 @@ where $\kappa_s$ is the molecular diffusivity of the salt and $\kappa_T$ is the 
 
 Our objective is to observe the temperature and salinity diffusion of a Gaussian function. The salinity and temperature follow the initial conditions as: $exp(-z^2 / (\sigma^2))$ where $\sigma=0.2$.
 
-<img src="/images/Exemples/IC_TS.png" width="250">
+<img src="/images/Exemples/IC_TS.png">
