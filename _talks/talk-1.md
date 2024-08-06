@@ -39,7 +39,7 @@ The second equation is the continuity equation, which ensures the incompressibil
 
 ## Ice-ocean boundary conditions
 
-Our setup assumes a homogeneous ice-ocean interface. The temperature at this interface is equal to the melting temperature $(T_M)$. We also assume that this interface moves with a velocity equal to $u_z \mid_{z=h(t)}=\dot{h}(t)$.
+Our setup assumes a two-dimension flow with a homogeneous ice-ocean interface. The temperature at this interface is equal to the melting temperature $(T_M)$. We also assume that this interface moves with a velocity equal to $u_z\mid_{z=h(t)}=\dot{h}(t)$.
 
 To describe the boundary conditions at the ice-ocean interface, we calculate the internal energy of the water
 
@@ -49,7 +49,7 @@ $$
 
 where $T(x,z,t)$ is the seawater temperature and  $C_p$ is the seawater heat capacity $(J/(kg K))$.
 
-When the ice is melting, the ice thickness decreases and freshwater is released into the ocean, leading to an increase in the interanl energy. This variation is given by:
+When the ice is melting, the ice thickness decreases and freshwater is released into the ocean, leading to an increase in the internal energy. This variation is given by:
 
 $$
 \frac{d}{dt} E_i (t) = C_p \int_0 ^{L_x} dx \,T(x,h(t),t) \, \dot{h}(t) +  C_p \int_0 ^{L_x} dx \int_0 ^{h(t)} dz \,\partial_t T(x,z,t) = L_f L_x u_z
