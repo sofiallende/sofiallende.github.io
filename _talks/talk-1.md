@@ -27,7 +27,7 @@ $$\rho = \rho_0 \left[ 1 - \beta_T (T - T_0) + \beta_S (S - S_0) \right]$$
 
 In this expression:
 
-- \(\beta_T\) is the thermal expansion coefficient in \(\text{1/K}\),
+- $\beta_T$ is the thermal expansion coefficient in \(\text{1/K}\),
 - \(\beta_S\) is the haline contraction coefficient in \(\text{1/(g/kg)}\),
 - \(T\) is the temperature in \(\text{K}\),
 - \(T_0\) is the reference temperature in \(\text{K}\),
