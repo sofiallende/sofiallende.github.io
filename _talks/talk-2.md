@@ -30,5 +30,5 @@ Next, we set up the molecular diffusivity for salt and temperature. In the ocean
 For this example, we choose $\text{Le} =10$. The video below displays the evolution of both tracers. As expected, the temperature diffuses faster than the salinity.
 
 
-<video src="/videos/Exemples/one_dimensional_diffusion_TS.mp4" width="320" height="240" controls></video>
+<video src="/videos/Exemples/one_dimensional_diffusion_TS.mp4" width="500" controls></video>
 
