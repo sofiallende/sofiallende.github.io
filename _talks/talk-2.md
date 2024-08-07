@@ -32,3 +32,6 @@ For this example, we choose $\text{Le} =10$. The video below displays the evolut
 
 <video src="/videos/Exemples/one_dimensional_diffusion_TS.mp4" width="500" controls></video>
 
+To access the Oceananigans.jl file, please
+[Download here!](http://sofiallende.github.io/files/Exemples/one_dimensional_diffusionTS.jl)
+
