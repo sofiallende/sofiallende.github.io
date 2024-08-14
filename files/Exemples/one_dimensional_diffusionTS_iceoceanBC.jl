@@ -45,18 +45,18 @@ grid = RectilinearGrid(size=128, z=(-1, 0), topology=(Flat, Flat, Bounded))
 # in `Flat` directions, saving computation and memory.
 
 # ##Boundary condition  (with values in their dimensionless form)
-T_bot=1e-5 #K
-λ1=-5.73e-2 #(K/(g/Kg)) 
-λ2=8.32e-2 #K 
-λ3=-7.53e-4 #K/dbar
-@inline T_top(t,S) = λ1*S;
+T_bot= 273 #K
+λ1= -5.73e-2 #(K/(g/Kg)) 
+λ2= 8.32e-2 #K 
+λ3= -7.53e-4 #K/dbar
+@inline T_top(t,S) = 273+λ1*S+λ2;
 T_bcs = FieldBoundaryConditions(top = ValueBoundaryCondition(T_top,field_dependencies=:S),
 				bottom = ValueBoundaryCondition(T_bot))
                                
-S_bot=35
-Cp=3974 #J/K/Kg
-Lf=3.35e5 #J/Kg
-Le=10    
+S_bot= 35
+Cp= 3974 #J/K/Kg
+Lf= 3.35e5 #J/Kg
+Le= 10    
 @inline grad_salt(i,j, grid, clock,  model_tracers) =
     @inbounds Le*(Cp/Lf)*0.5*(model_tracers.S[i,j+grid.Nz,1]+model_tracers.S[i,j-1+grid.Nz,1])*(grid.Nz/grid.Lz)*(model_tracers.T[i,j+grid.Nz,1]-model_tracers.T[i,j-1+grid.Nz,1]) 
     
@@ -87,7 +87,7 @@ model = NonhydrostaticModel(; grid, closure, tracers=(:T, :S),boundary_condition
 #initial_temperature(z) = exp(-z^2 / (2width^2))
 #initial_salinity(z) = exp(-z^2 / (2width^2))
 
-initial_temperature(z) = -1-z
+initial_temperature(z) = 273 + (-2-2*z)
 initial_salinity(z)=35
 set!(model, T=initial_temperature, S=initial_salinity)
 
@@ -99,7 +99,7 @@ set!(model, T=initial_temperature, S=initial_salinity)
 #print(model.tracers.T[grid.Nz+3], model.tracers.T[grid.Nz+3+1])
 
 T_teo=(1/2)*(model.tracers.T[grid.Nz+3]+model.tracers.T[grid.Nz+1+3])
-T_bou=λ1*(1/2)*(model.tracers.S[grid.Nz+3]+model.tracers.S[grid.Nz+1+3])
+T_bou=273+λ1*(1/2)*(model.tracers.S[grid.Nz+3]+model.tracers.S[grid.Nz+1+3])
 print("Temp BC %error", (T_bou-T_teo)/T_teo*100)
 
 S_teo=(grid.Nz/grid.Lz)*(model.tracers.S[grid.Nz+3]-model.tracers.S[grid.Nz+1+3])
@@ -115,7 +115,7 @@ print("Salt BC %error ",(S_bou-S_teo)/S_teo*100)
 set_theme!(Theme(fontsize = 24, linewidth=3))
 fig = Figure(size = (700, 500))
 ax_T = Axis(fig[1, 1], title="t = 0", xlabel = "Temperature", ylabel = "z")
-xlims!(ax_T, -1, 0)
+xlims!(ax_T, 270, 274)
 ax_S = Axis(fig[1, 2], title="t = 0", xlabel = "Salinity", ylabel = "z")
 xlims!(ax_S, 34.5, 35.5)
 label = "t = 0"
@@ -142,7 +142,7 @@ save("IC_TS_iceocean.png", fig)
 min_Δz = minimum_zspacing(model.grid)
 diffusion_time_scale = min_Δz^2 / model.closure.κ.T
 
-simulation = Simulation(model, Δt = 0.05 * diffusion_time_scale, stop_iteration = 100)
+simulation = Simulation(model, Δt = 0.1 * diffusion_time_scale, stop_iteration = 100)
 
 progress_message(sim) = @printf("Iteration: %04d, time: %s, Δt: %s, max(|w|) = %.1e ms⁻¹, wall time: %s\n",
                                 iteration(sim), prettytime(sim), prettytime(sim.Δt),
@@ -154,7 +154,7 @@ progress_message(sim) = @printf("Iteration: %04d, time: %s, Δt: %s, max(|w|) = 
 run!(simulation)
 
 T_teo=(1/2)*(model.tracers.T[grid.Nz+3]+model.tracers.T[grid.Nz+1+3])
-T_bou=λ1*(1/2)*(model.tracers.S[grid.Nz+3]+model.tracers.S[grid.Nz+1+3])
+T_bou=273+λ1*(1/2)*(model.tracers.S[grid.Nz+3]+model.tracers.S[grid.Nz+1+3])
 print("Temp BC %error ", (T_bou-T_teo)/T_teo*100)
 
 S_teo=(grid.Nz/grid.Lz)*(model.tracers.S[grid.Nz+3]-model.tracers.S[grid.Nz+1+3])
@@ -185,7 +185,7 @@ simulation.stop_iteration += 20000
 run!(simulation)
 
 T_teo=(1/2)*(model.tracers.T[grid.Nz+3]+model.tracers.T[grid.Nz+1+3])
-T_bou=λ1*(1/2)*(model.tracers.S[grid.Nz+3]+model.tracers.S[grid.Nz+1+3])
+T_bou=273+λ1*(1/2)*(model.tracers.S[grid.Nz+3]+model.tracers.S[grid.Nz+1+3])
 print("Temp BC %error ", (T_bou-T_teo)/T_teo*100)
 
 S_teo=(grid.Nz/grid.Lz)*(model.tracers.S[grid.Nz+3]-model.tracers.S[grid.Nz+1+3])
@@ -207,7 +207,7 @@ xS, yS, zS = nodes(timeseries.S)
 
 fig = Figure(size = (700, 500))
 ax_T = Axis(fig[2, 1]; xlabel = "Temperature", ylabel = "z")
-xlims!(ax_T, -2, 0)
+xlims!(ax_T, 270, 274)
 ax_S = Axis(fig[2, 2]; xlabel = "Salinity", ylabel = "z")
 xlims!(ax_S, 33, 35.1)
 
