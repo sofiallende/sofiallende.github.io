@@ -37,12 +37,12 @@ $$
 
 where.
 $$
-\lambda_1 = -5.73 \times 10^{-2} \, \text{K}/(\text{g/kg})\\
-\lambda_2 = 8.32 \times 10^{-2} \, \text{K}\\
-\lambda_3 = -7.53 \times 10^{-4} \, \text{K/dbar}\\
+\lambda_1 = -5.73 \times 10^{-2} \quad \text{K}/(\text{g/kg})\\
+\lambda_2 = 8.32 \times 10^{-2} \quad \text{K}\\
+\lambda_3 = -7.53 \times 10^{-4} \quad \text{K/dbar}\\
 Le = \left( \frac{\kappa_T}{\kappa_s} \right) = [1, 100]\\
-C_p = 3974 \, \text{J}/(\text{K} \text{kg})\\
-L_f = 3.35 \times 10^5 \, \text{J}/\text{kg}\\
+C_p = 3974 \quad \text{J}/(\text{K} \text{kg})\\
+L_f = 3.35 \times 10^5 \quad \text{J}/\text{kg}\\
 $$
 
 
