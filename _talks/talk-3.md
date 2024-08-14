@@ -21,14 +21,14 @@ where $\kappa_S$ is the molecular diffusivity of the salt and $\kappa_T$ is the 
 
 The boundary conditions that simulate the ice-ocean interface are:
 
-- TOP
+- Top
 
 $$
 T=\lambda_1 S + \lambda_2 + \lambda_3 Pb\\
 \partial_z S = \left(\frac{\kappa_T}{\kappa_S}\right) \left(\frac{C_p}{L_f}\right) S \partial_z T
 $$
 
-- BOTTOM
+- Bottom
 
 $$
 T=T_\infty\\
@@ -37,12 +37,12 @@ $$
 
 where.
 $$
-\lambda_1 = -5.73 \times 10^{-2} \, \left( \frac{\text{K}}{\text{g/kg}} \right)\\
+\lambda_1 = -5.73 \times 10^{-2} \, \text{K}/(\text{g/kg})\\
 \lambda_2 = 8.32 \times 10^{-2} \, \text{K}\\
 \lambda_3 = -7.53 \times 10^{-4} \, \text{K/dbar}\\
 Le = \left( \frac{\kappa_T}{\kappa_s} \right) = [1, 100]\\
-C_p = 3974 \, \frac{\text{J}}{\text{K} \cdot \text{kg}}\\
-L_f = 3.35 \times 10^5 \, \frac{\text{J}}{\text{kg}}\\
+C_p = 3974 \, \text{J}/(\text{K} \text{kg})\\
+L_f = 3.35 \times 10^5 \, \text{J}/\text{kg}\\
 $$
 
 
