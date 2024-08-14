@@ -8,8 +8,6 @@ date: 2024-07-04
 location: "Marseille, France"
 ---
 
-
-
 To model the ice-ocean boundary layer, we utilize the Navier-Stokes equations under the Boussinesq approximation. In the bulk, the governing equations can be written as follows:
 
 $$
@@ -21,7 +19,7 @@ $$
 
 
 
-The first equation represents the momentum equation. Here, $\mathbf{u} = \mathbf{u}(x,y,z)$ denotes the fluid velocity in m/s, $\rho_0$ is the reference density in $\text{kg/m}^3$, $p$ is the pressure in $\text{Pa}$, and $\nu$ is the kinematic viscosity in $\text{m}^2/\text{s}$. The term $\mathbf{g}$ represents the gravitational acceleration in $\text{m/s}^2$, and $\rho$ is the fluid density given by:
+The first equation represents the momentum equation. Here, $\mathbf{u} = \mathbf{u}(x,y,z)$ denotes the fluid velocity in m/s, $\rho_0$ is the reference density in $\text{kg/m}^3$, $p$ is the pressure in $\text{dbar}$, and $\nu$ is the kinematic viscosity in $\text{m}^2/\text{s}$. The term $\mathbf{g}$ represents the gravitational acceleration in $\text{m/s}^2$, and $\rho$ is the fluid density given by:
 
 $$\rho = \rho_0 \left[ 1 - \beta_T (T - T_0) + \beta_S (S - S_0) \right]$$
 
