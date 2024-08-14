@@ -46,7 +46,7 @@ L_f = 3.35 \times 10^5 \quad \text{J}/\text{kg}\\
 $$
 
 
-Our initial state is:
+ The salinity and temperature follow the initial conditions as: $T_i(z)=-1-z$ and $S_i(z)=35$.
 
 <img src="/images/Exemples/IC_TS_iceocean.png" width="500">
 
