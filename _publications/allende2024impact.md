@@ -2,7 +2,7 @@
 title: "Impact of ocean vertical mixing parameterization on Arctic sea ice and upper ocean properties using the NEMO-SI3 model"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-6
-date: Preprint. Discussion started: 28 March 2024, Accepted 
+date: 
 venue: 'Geoscientific Model Development'
 paperurl: 'http://sofiallende.github.io/files/allende2024impact_pp.pdf'
 citation: 'Allende, S., Treguier, A. M., Lique, C., de Boyer Montégut, C., Massonnet, F., Fichefet, T., & Barthélemy, A. (2024). &quot; Impact of ocean vertical mixing parameterization on Arctic sea ice and upper ocean properties using the NEMO-SI3 model. &quot; <i> Geoscientific Model Development Discussions</i>, 2024, 1-28.'
