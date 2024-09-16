@@ -87,7 +87,7 @@ author:
   employer         :
 #  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=P7sfVAgAAAAJ&hl=es&oi=ao"
-  email            : sofia.allende@uclouvain.be
+  email            : sofia.allende@univ-amu.fr
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -185,6 +185,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
+    output: true
+    permalink: /:collection/:path/
+  osii:
     output: true
     permalink: /:collection/:path/
 

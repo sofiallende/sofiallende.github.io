@@ -8,7 +8,6 @@ date: 2024-09-06
 location: "Marseille, France"
 ---
 
-There are various approaches to non-dimensionalizing the Navier-Stokes equations. Here, we will explore two different methods. The first, commonly used in the turbulence community, is based on the eddy turnover time, while the second, favored in the convection community, employs the viscous time scale.
 
 We utilize the Navier-Stokes equations under the Boussinesq approximation. The governing equations can be written as follows:
 
