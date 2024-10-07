@@ -37,7 +37,7 @@ using CairoMakie
 # We build a rectilinear grid with 128 regularly-spaced grid points in
 # the `z`-direction, where `z` spans from `z = -1` to `z = 0`. 
 
-grid = RectilinearGrid(size=2048, z=(-1, 0), topology=(Flat, Flat, Bounded))
+grid = RectilinearGrid(size=128, z=(-1, 0), topology=(Flat, Flat, Bounded))
 
 # The default topology is `(Periodic, Periodic, Bounded)`. In this example, we're
 # trying to solve a one-dimensional problem, so we assign `Flat` to the
@@ -49,14 +49,14 @@ T_bot= 273 #K
 λ1= -5.73e-2 #(K/(g/Kg)) 
 λ2= 8.32e-2 #K 
 λ3= -7.53e-4 #K/dbar
-@inline T_top(t,S) = 273.15+λ1*S+λ2;
+@inline T_top(t,S) = 273+λ1*S+λ2;
 T_bcs = FieldBoundaryConditions(top = ValueBoundaryCondition(T_top,field_dependencies=:S),
 				bottom = ValueBoundaryCondition(T_bot))
                                
 S_bot= 35
 Cp= 3974 #J/K/Kg
 Lf= 3.35e5 #J/Kg
-Le= 1    
+Le= 10    
 @inline grad_salt(i,j, grid, clock,  model_tracers) =
     @inbounds Le*(Cp/Lf)*0.5*(model_tracers.S[i,j+grid.Nz,1]+model_tracers.S[i,j-1+grid.Nz,1])*(grid.Nz/grid.Lz)*(model_tracers.T[i,j+grid.Nz,1]-model_tracers.T[i,j-1+grid.Nz,1]) 
     
@@ -72,7 +72,7 @@ free_slip_surface_bcs = FieldBoundaryConditions(bottom=no_slip_bc, top=no_slip_b
 # that the rate between both diffusivities represent the Lewis number
 # (Le=Sc/Pr, Sc=ν/κs, Pr= ν/κT) 
 
-closure = ScalarDiffusivity(κ=(T=1,S=1))
+closure = ScalarDiffusivity(κ=(T=1e-7,S=1e-8))
 
 # We finally pass these two ingredients to `NonhydrostaticModel`,
 model = NonhydrostaticModel(; grid, closure, tracers=(:T, :S),boundary_conditions = (u=free_slip_surface_bcs, T=T_bcs, S=S_bcs))
@@ -87,8 +87,8 @@ model = NonhydrostaticModel(; grid, closure, tracers=(:T, :S),boundary_condition
 #initial_temperature(z) = exp(-z^2 / (2width^2))
 #initial_salinity(z) = exp(-z^2 / (2width^2))
 
-initial_temperature(z) = 273-1.7*exp(-z^2/(0.1^2)) #+log10(40*z^2+1e-0)
-initial_salinity(z)=35-2*exp(-z^2/(0.05^2)) #log10(10*z^4+1e-2)
+initial_temperature(z) = 273 + (-2-2*z)
+initial_salinity(z)=35
 set!(model, T=initial_temperature, S=initial_salinity)
 
 #set!(model, T=initial_temperature,S=initial_salinity)
@@ -115,9 +115,9 @@ print("Salt BC %error ",(S_bou-S_teo)/S_teo*100)
 set_theme!(Theme(fontsize = 24, linewidth=3))
 fig = Figure(size = (700, 500))
 ax_T = Axis(fig[1, 1], title="t = 0", xlabel = "Temperature", ylabel = "z")
-xlims!(ax_T, 271, 274)
+xlims!(ax_T, 270, 274)
 ax_S = Axis(fig[1, 2], title="t = 0", xlabel = "Salinity", ylabel = "z")
-xlims!(ax_S, 30, 36)
+xlims!(ax_S, 34.5, 35.5)
 label = "t = 0"
 
 
@@ -142,7 +142,7 @@ save("IC_TS_iceocean.png", fig)
 min_Δz = minimum_zspacing(model.grid)
 diffusion_time_scale = min_Δz^2 / model.closure.κ.T
 
-simulation = Simulation(model, Δt = 0.1 * diffusion_time_scale, stop_iteration = 10000)
+simulation = Simulation(model, Δt = 0.1 * diffusion_time_scale, stop_iteration = 100)
 
 progress_message(sim) = @printf("Iteration: %04d, time: %s, Δt: %s, max(|w|) = %.1e ms⁻¹, wall time: %s\n",
                                 iteration(sim), prettytime(sim), prettytime(sim.Δt),
@@ -175,13 +175,13 @@ current_figure() #hide
 
 simulation.output_writers[:temperature] =
     JLD2OutputWriter(model, model.tracers,
-                     filename = "one_dimensional_diffusionTS_iceocean_2048.jld2",
+                     filename = "one_dimensional_diffusionTS_iceocean.jld2",
                      schedule=IterationInterval(100),
                      overwrite_existing = true)
 
 # We run the simulation for 10,000 more iterations,
 
-simulation.stop_iteration += 60000
+simulation.stop_iteration += 20000
 run!(simulation)
 
 T_teo=(1/2)*(model.tracers.T[grid.Nz+3]+model.tracers.T[grid.Nz+1+3])
@@ -197,7 +197,7 @@ print("Salt BC %error ",(S_bou-S_teo)/S_teo*100)
 # temperature profile in a loop over the iterations.
 
 ## Temperature and salinity movie
-filename = "one_dimensional_diffusionTS_iceocean_2048"
+filename = "one_dimensional_diffusionTS_iceocean"
 filepath = filename * ".jld2"
 timeseries = (T = FieldTimeSeries(filepath, "T"),
               S = FieldTimeSeries(filepath, "S"))
@@ -207,9 +207,9 @@ xS, yS, zS = nodes(timeseries.S)
 
 fig = Figure(size = (700, 500))
 ax_T = Axis(fig[2, 1]; xlabel = "Temperature", ylabel = "z")
-xlims!(ax_T, 271, 274)
+xlims!(ax_T, 270, 274)
 ax_S = Axis(fig[2, 2]; xlabel = "Salinity", ylabel = "z")
-xlims!(ax_S, 30, 36)
+xlims!(ax_S, 33, 35.1)
 
 n = Observable(1)
 
