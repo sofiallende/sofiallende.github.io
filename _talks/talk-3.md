@@ -48,11 +48,11 @@ L_f = 3.35 \times 10^5 \quad \text{J}/\text{kg}\\
 $$
 
 
-The salinity and temperature follow the initial conditions as: $T_i(z)=273-1.7 \exp(-z^2/0.1^2)$ and $S_i(z)=35-2 \exp(-z^2/0.05^2)$.
+The salinity and temperature follow the initial conditions as: $T_i(z)=273-1.7 \exp{(-z^2/0.1^2)}$ and $S_i(z)=35-2 \exp{(-z^2/0.05^2)}$.
 
 <img src="/images/Exemples/IC_TS_iceocean.png" width="700">
 
-For this example, we set $\text{Le} = 1$, with values of $\kappa_S = 1 , \text{m}^2/\text{s}$ and $\kappa_T =1 , \text{m}^2/\text{s}$. Please note that these values are far from realistic oceanic values of salinity and temperture diffusivities. 
+For this example, we set $\text{Le} = 1$, with values of $\kappa_S = 1 \text{m}^2/\text{s}$ and $\kappa_T =1 \text{m}^2/\text{s}$. Please note that these values are far from realistic oceanic values of salinity and temperture diffusivities. 
 
 The video below illustrates the evolution of both tracers. At the ice-ocean boundary, as the ice melts, salinity decreases near the surface, while the temperature of the surrounding water drops. This happens because the melting process absorbs heat from the water, lowering its temperature—a phenomenon known as latent heat absorption, where the heat is used to convert solid ice into liquid water.
 
