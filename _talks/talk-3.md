@@ -62,7 +62,7 @@ For this example, we set $\text{Le} = 1$, with values of $\kappa_S = 1 \text{m}^
 The video below illustrates the evolution of both tracers. At the ice-ocean boundary, as the ice melts, salinity decreases near the surface, while the temperature of the surrounding water drops. This happens because the melting process absorbs heat from the water, lowering its temperature—a phenomenon known as latent heat absorption, where the heat is used to convert solid ice into liquid water.
 
 
-<video src="/videos/Exemples/one_dimensional_diffusion_TS_iceocean.mp4" width="100%" controls></video>
+<video src="/videos/Exemples/one_dimensional_diffusion_TS_iceocean2.mp4" width="100%" controls></video>
 
 To access the Oceananigans.jl file, please download
 [here!](http://sofiallende.github.io/files/Exemples/one_dimensional_diffusionTS_iceoceanBC.jl)
