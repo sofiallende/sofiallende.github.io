@@ -67,7 +67,12 @@ The video below illustrates the evolution of both tracers. At the ice-ocean boun
 To access the Oceananigans.jl file, please download
 [here!](http://sofiallende.github.io/files/Exemples/one_dimensional_diffusionTS_iceoceanBC.jl)
 
+\vspace{2cm}
 
-We use this example to compute the relative error from different numerical resolutions. Our 'theoretical solution' corresponds to the spatial resolution equal to $16384$.
+We use this example to compute the relative error from different numerical resolutions. Our 'theoretical solution' corresponds to the spatial resolution equal to $16384$. We observe that this scales similarly to $ dx^{1.5}$, which is slightly less than the second-order spatial numerical scheme used in Oceananigans.
+
 
 <img src="/images/Exemples/Erreur_L2_efrBC.png" width="700">
+
+
+
