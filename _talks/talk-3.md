@@ -51,7 +51,7 @@ $$
 The salinity and temperature follow the initial conditions as: 
 
 $$
-T_i(z)=271.0783-1.9217*0.5*(1-erf(25(z+0.75))\\
+T_i(z)=271.0783-1.9217*0.5*(1-\mathbf{erf}(25(z+0.75))\\
 S_i(z)=35
 $$
 
