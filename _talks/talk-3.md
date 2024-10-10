@@ -53,8 +53,7 @@ $$
 T_i(z)=271.0783-1.9217*0.5*(1-\mathbf{erf}(25(z+0.75))\\
 S_i(z)=35
 $$
-
-for the domain $z \in [-1, 0]$, which are consistent with the boundary conditions at both the top and bottom. This means that at the top $(z = 0)$, the initial temperature is  $T_i(0) = 271.0783$ and $S_i(0) = 35$, while at the bottom $(z = -1)$,  $T_i(-1) = 273$ and $S_i(-1) = 35$.
+for the domain $z \in [-1, 0]$, which are consistent with the boundary conditions at both the top and bottom. Specifically, at the top  $(z = 0)$, the initial temperature and salinity are $T_i(0) = 271.0783$ and $S_i(0) = 35$, while at the bottom $(z = -1)$ are $T_i(-1) = 273$ and $S_i(-1) = 35$.
 
 <img src="/images/Exemples/IC_TS_iceocean.png" width="700">
 
