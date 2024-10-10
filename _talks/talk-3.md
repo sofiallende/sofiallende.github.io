@@ -68,4 +68,6 @@ To access the Oceananigans.jl file, please download
 [here!](http://sofiallende.github.io/files/Exemples/one_dimensional_diffusionTS_iceoceanBC.jl)
 
 
+We use this example to compute the relative error from different numerical resolutions. Our 'theoretical solution' corresponds to the spatial resolution equal to $16384$.
 
+<img src="/images/Exemples/Erreur_L2_efrBC.png" width="700">
