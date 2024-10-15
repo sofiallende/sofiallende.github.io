@@ -50,29 +50,42 @@ $$
 
 The salinity and temperature follow the initial conditions as: 
 $$
-T_i(z)=271.0783-1.9217*0.5*(1-\mathbf{erf}(25(z+0.75))\\
-S_i(z)=35
+T_0(z)=271.0783-1.9217*0.5*(1-\mathbf{erf}(25(z+0.75))\\
+S_0(z)=35
 $$
-for the domain $z \in [-1, 0]$, which are consistent with the boundary conditions at both the top and bottom. Specifically, at the top  $(z = 0)$, the initial temperature and salinity are $T_i(0) = 271.0783$ and $S_i(0) = 35$, while at the bottom $(z = -1)$ are $T_i(-1) = 273$ and $S_i(-1) = 35$.
+for the domain $z \in [-1, 0]$, which are consistent with the boundary conditions at both the top and bottom. Specifically, at the top  $(z = 0)$, the initial temperature and salinity are $T_0(0) = 271.0783$ and $S_0(0) = 35$, while at the bottom $(z = -1)$ are $T_0(-1) = 273$ and $S_0(-1) = 35$.
 
-<img src="/images/Exemples/IC_TS_iceocean.png" width="700">
+<img src="/images/Exemples/1D_diff_melt/IC_TS_iceocean.png" width="700">
 
-For this example, we set $\text{Le} = 1$, with values of $\kappa_S = 1 \text{m}^2/\text{s}$ and $\kappa_T =0.1 \text{m}^2/\text{s}$. Please note that these values are far from realistic oceanic values of salinity and temperture diffusivities. 
+For this example, we set $\text{Le} = 1$, with values of $\kappa_T = 1 \text{m}^2/\text{s}$ and $\kappa_S =0.1 \text{m}^2/\text{s}$. Please note that these values are far from realistic oceanic values of salinity and temperture diffusivities. 
 
 The video below illustrates the evolution of both tracers. At the ice-ocean boundary, as the ice melts, salinity decreases near the surface, while the temperature of the surrounding water drops. This happens because the melting process absorbs heat from the water, lowering its temperature—a phenomenon known as latent heat absorption, where the heat is used to convert solid ice into liquid water.
 
 
-<video src="/videos/Exemples/one_dimensional_diffusion_TS_iceocean2.mp4" width="100%" controls></video>
+<video src="/videos/Exemples/1D_diff_melt/one_dimensional_diffusion_TS_iceocean2.mp4" width="100%" controls></video>
 
 To access the Oceananigans.jl file, please download
 [here!](http://sofiallende.github.io/files/Exemples/one_dimensional_diffusionTS_iceoceanBC.jl)
 
-\vspace{2cm}
 
 We use this example to compute the relative error from different numerical resolutions. Our 'theoretical solution' corresponds to the spatial resolution equal to $16384$. We observe that this scales similarly to $ dx^{1.5}$, which is slightly less than the second-order spatial numerical scheme used in Oceananigans.
 
 
-<img src="/images/Exemples/Erreur_L2_efrBC.png" width="700">
+<img src="/images/Exemples/1D_diff_melt/Erreur_L2_efrBC.png" width="700">
+
+Additionally, we compute the evolution of the relative error between the output of our simulation, using a numerical resolution of 1024 grid points, and the predicted values from the boundary equations. Its evolution is shown below,
 
 
+<img src="/images/Exemples/1D_diff_melt/Erreur_temp_top.png" width="300">
+
+where:
+$$
+T_{pred}=273+\lambda_1 S + \lambda_2\\
+\partial_z S_{pred} = \left(\frac{\kappa_T}{\kappa_S}\right) \left(\frac{C_p}{L_f}\right) S \partial_z T
+$$
+
+
+
+
+Finally, to verify the accuracy of our implementation of the melt boundary condition in Oceananigans, we compare our results with those from a finite element code written in Fortran.
 
