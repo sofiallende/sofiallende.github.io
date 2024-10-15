@@ -76,14 +76,10 @@ We use this example to compute the relative error from different numerical resol
 Additionally, we compute the evolution of the relative error between the output of our simulation, using a numerical resolution of 1024 grid points, and the predicted values from the boundary equations. Its evolution is shown below,
 
 
-<img src="/images/Exemples/1D_diff_melt/Erreur_temp_salt_top.png" width="800">
+<img src="/images/Exemples/1D_diff_melt/Erreur_temp_salt_top.png" width="700">
 
 
-where:
-$$
-T_{\text{pred}}=273+\lambda_1 S + \lambda_2\\
-\partial_z S_{\text{pred}} = \left(\frac{\kappa_T}{\kappa_S}\right) \left(\frac{C_p}{L_f}\right) S \partial_z T
-$$
+where $T_{\text{pred}}=273+\lambda_1 S + \lambda_2$ and $\partial_z S_{\text{pred}} = \left(\frac{\kappa_T}{\kappa_S}\right) \left(\frac{C_p}{L_f}\right) S \partial_z T$
 
 
 
