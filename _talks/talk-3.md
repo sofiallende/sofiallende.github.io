@@ -62,7 +62,7 @@ For this example, we set $\text{Le} = 1$, with values of $\kappa_T = 1 \text{m}^
 The video below illustrates the evolution of both tracers. At the ice-ocean boundary, as the ice melts, salinity decreases near the surface, while the temperature of the surrounding water drops. This happens because the melting process absorbs heat from the water, lowering its temperature—a phenomenon known as latent heat absorption, where the heat is used to convert solid ice into liquid water.
 
 
-<video src="/videos/Exemples/1D_diff_melt/one_dimensional_diffusion_TS_iceocean2.mp4" width="100%" controls></video>
+<video src="/videos/Exemples/one_dimensional_diffusion_TS_iceocean2.mp4" width="100%" controls></video>
 
 To access the Oceananigans.jl file, please download
 [here!](http://sofiallende.github.io/files/Exemples/one_dimensional_diffusionTS_iceoceanBC.jl)
@@ -76,7 +76,8 @@ We use this example to compute the relative error from different numerical resol
 Additionally, we compute the evolution of the relative error between the output of our simulation, using a numerical resolution of 1024 grid points, and the predicted values from the boundary equations. Its evolution is shown below,
 
 
-<img src="/images/Exemples/1D_diff_melt/Erreur_temp_top.png" width="300">
+<img src="/images/Exemples/1D_diff_melt/Erreur_temp_top.png" width="500">
+<img src="/images/Exemples/1D_diff_melt/Erreur_salt_top.png" width="500">
 
 where:
 $$
