@@ -81,8 +81,8 @@ Additionally, we compute the evolution of the relative error between the output 
 
 where:
 $$
-T_{pred}=273+\lambda_1 S + \lambda_2\\
-\partial_z S_{pred} = \left(\frac{\kappa_T}{\kappa_S}\right) \left(\frac{C_p}{L_f}\right) S \partial_z T
+T_{\text{pred}}=273+\lambda_1 S + \lambda_2\\
+\partial_z S_{\text{pred}} = \left(\frac{\kappa_T}{\kappa_S}\right) \left(\frac{C_p}{L_f}\right) S \partial_z T
 $$
 
 
