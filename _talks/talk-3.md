@@ -76,8 +76,8 @@ We use this example to compute the relative error from different numerical resol
 Additionally, we compute the evolution of the relative error between the output of our simulation, using a numerical resolution of 1024 grid points, and the predicted values from the boundary equations. Its evolution is shown below,
 
 
-<img src="/images/Exemples/1D_diff_melt/Erreur_temp_top.png" width="400">
-<img src="/images/Exemples/1D_diff_melt/Erreur_salt_top.png" width="400">
+<img src="/images/Exemples/1D_diff_melt/Erreur_temp_salt_top.png" width="700">
+
 
 where:
 $$
