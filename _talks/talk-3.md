@@ -137,3 +137,5 @@ Comparing the error between the first Oceananigans implementation and the FEM mo
 
 
 <img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top_all.png" width="1000">
+
+To access the alternative version of the boundary condition implementation, please download [here!](http://sofiallende.github.io/files/Exemples/one_dimensional_diffusionTS_iceoceanBC2_Tmcomplete.jl)
