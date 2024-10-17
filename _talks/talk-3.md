@@ -82,7 +82,7 @@ Additionally, we compute the evolution of the relative error between the output 
 where:
 $$
 T_{\text{pred}}=273+\lambda_1 S + \lambda_2\\
-T_{\text{obs}}=\frac{1}{2}(T_{n_z}+T_{n_z+1})\\
+T_{\text{obs}}=\frac{T_{n_z}+T_{n_z+1}}{2}\\
 \partial_z S_{\text{pred}} = Le \, C_p \, L_f^{-1} \, S \, \partial_z T\\
 \partial_z S_{\text{obs}} = \frac{S_{n_z}-S_{n_z+1}}{dz}
 $$
