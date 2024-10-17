@@ -133,7 +133,7 @@ We compare the four models at the same final time of 0.02. "Oceananigans T" repr
 <img src="/images/Exemples/1D_diff_melt/temp_salt_prof_all.png" width="1000">
 
 
-Comparing the error between the first Oceananigans implementation and the FEM model with the error from the quadratic equation implementation and the FEM model, we observe an increase in the error, as shown in the figure below.
+Comparing the error between the first Oceananigans implementation and the FEM model with the error from the quadratic equation implementation and the FEM model, we observe an increase in the error in particular in the temperature, as shown in the figure below.
 
 
 <img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top_all.png" width="1000">
