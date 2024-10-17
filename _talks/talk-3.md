@@ -89,16 +89,16 @@ $$
 
 
 
-To verify the accuracy of our implementation of the melt boundary condition in Oceananigans, we compare our results with those from a finite element code written in Fortran. In the Fortran code, we use the same setup with 384 grid points and $\Delta t = 2 \times 10^{-3}$. Our Oceananigans simulation uses 1024 grid points with $\Delta t = 1 \times 10^{-7}$. At the same final time of 0.02, the salinity and temperature profiles are as follows:
+To verify the accuracy of our implementation of the melt boundary condition in Oceananigans, we compare our results with those from a finite difference code written in Fortran. In the Fortran code, we use the same setup with 384 grid points and $\Delta t = 2 \times 10^{-3}$. Our Oceananigans simulation uses 1024 grid points with $\Delta t = 1 \times 10^{-7}$. At the same final time of 0.02, the salinity and temperature profiles are as follows:
 
 
 
-<img src="/images/Exemples/1D_diff_melt/temp_salt_prof.png" width="1000">
+<img src="/images/Exemples/1D_diff_melt/temp_salt_prof_2.png" width="1000">
 
 
 The error between the two models for salinity and temperature at the boundary reaches:
 
-<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top.png" width="1000">
+<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top_2.png" width="1000">
 
 
 
@@ -130,12 +130,12 @@ We compare the four models at the same final time of 0.02. "Oceananigans T" repr
 
 
 
-<img src="/images/Exemples/1D_diff_melt/temp_salt_prof_all.png" width="1000">
+<img src="/images/Exemples/1D_diff_melt/temp_salt_prof_all_2.png" width="1000">
 
 
-Comparing the error between the first Oceananigans implementation and the FEM model with the error from the quadratic equation implementation and the FEM model, we observe an increase in the error in particular in the temperature, as shown in the figure below.
+Comparing the error between the first Oceananigans implementation and the FFM model with the error from the quadratic equation implementation and the FFM model, we observe an increase in the error in particular in the temperature, as shown in the figure below.
 
 
-<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top_all.png" width="1000">
+<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top_all_2.png" width="1000">
 
 To access the alternative version of the boundary condition implementation, please download [here!](http://sofiallende.github.io/files/Exemples/one_dimensional_diffusionTS_iceoceanBC2_Tmcomplete.jl)
