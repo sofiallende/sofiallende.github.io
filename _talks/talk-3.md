@@ -82,9 +82,9 @@ Additionally, we compute the evolution of the relative error between the output 
 where:
 $$
 T_{\text{pred}}=273+\lambda_1 S + \lambda_2\\
-T_{\text{obs}}=0.5(T_{n_z}+T_{n_z+1})\\
+T_{\text{obs}}=\frac{1}{2}(T_{n_z}+T_{n_z+1})\\
 \partial_z S_{\text{pred}} = Le \, C_p \, L_f^{-1} \, S \, \partial_z T\\
-\partial_z S_{\text{obs}} = (S_{n_z}-S_{n_z+1})/dz
+\partial_z S_{\text{obs}} = \frac{S_{n_z}-S_{n_z+1}}{dz}
 $$
 
 
@@ -102,7 +102,7 @@ The error between the two models for salinity and temperature at the boundary re
 
 
 
-We also implement an alternative approach to include the melt conditions. In the first approximation, we combine the boundary conditions as $ S = (T - 273)/\lambda_1 $ and $ \partial_z S = 1/\alpha S \partial_z T $, with $\alpha=L_f/(Le \, C_p), as follows:
+We also implement an alternative approach to include the melt conditions. In the first approximation, we combine the boundary conditions as $ S = (T - 273)/\lambda_1 $ and $ \partial_z S = 1/\alpha S \partial_z T $, with $\alpha=L_f/(Le \, C_p)$, as follows:
 
 $$
 \frac{S - S_0}{\Delta z} = \frac{1}{\alpha} \frac{S\,(T - T_0)}{\Delta z}
@@ -126,7 +126,8 @@ $$
 T^2 + T(-\alpha - T_0 - 273 - \lambda_2) + \alpha \lambda_1 S + (273 + \lambda_2)(T + \alpha) = 0
 $$
 
-We compare the four models at the same final time of 0.02. "Oceananigans T" represents the first approximation, while "Oceananigans T complete" represents the second one.
+We compare the four models at the same final time of 0.02. "Oceananigans T" represents the first approximation, while "Oceananigans T complete" represents the second one. We observe that the "Oceananigans T" model displays the largest discrepancies compared to the other models, indicating that neglecting $\lambda_2$ leads to unrealistic values of salinity and temperature.
+
 
 
 <img src="/images/Exemples/1D_diff_melt/temp_salt_prof_all.png" width="1000">
