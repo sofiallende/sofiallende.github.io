@@ -92,7 +92,7 @@ To verify the accuracy of our implementation of the melt boundary condition in O
 
 The error between the two models for salinity and temperature at the boundary reaches:
 
-<img src="/images/Exemples/1D_diff_melt/.png" width="700">
+<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top.png" width="700">
 
 
 
@@ -125,3 +125,8 @@ We compare the four models at the same final time of 0.02. "Oceananigans T" repr
 
 <img src="/images/Exemples/1D_diff_melt/temp_salt_prof_all.png" width="700">
 
+
+Comparing the error between the first Oceananigans implementation and the FEM model with the error from the quadratic equation implementation and the FEM model, we observe an increase in the error, as shown in the figure below.
+
+
+<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top_all.png" width="700">
