@@ -93,25 +93,25 @@ To verify the accuracy of our implementation of the melt boundary condition in O
 
 
 
-<img src="/images/Exemples/1D_diff_melt/temp_salt_prof.png" width="800">
+<img src="/images/Exemples/1D_diff_melt/temp_salt_prof.png" width="1000">
 
 
 The error between the two models for salinity and temperature at the boundary reaches:
 
-<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top.png" width="800">
+<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top.png" width="1000">
 
 
 
-We also implement an alternative approach to include the melt conditions. In the first approximation, we combine the boundary conditions as $ S = (T - 273)/\lambda_1 $ and $ \partial_z S = 1/\alpha S \partial_z T $ as follows:
+We also implement an alternative approach to include the melt conditions. In the first approximation, we combine the boundary conditions as $ S = (T - 273)/\lambda_1 $ and $ \partial_z S = 1/\alpha S \partial_z T $, with $\alpha=L_f/(Le \, C_p), as follows:
 
 $$
-\frac{S - S_0}{\Delta z} = \frac{1}{\alpha} S \frac{T - T_0}{\Delta z}
+\frac{S - S_0}{\Delta z} = \frac{1}{\alpha} \frac{S\,(T - T_0)}{\Delta z}
 $$
 
 This leads to the following equation:
 
 $$
-\alpha \left( \frac{T - 273}{\lambda_1} - S_0 \right) = \frac{T - 273}{\lambda_1} (T - T_0)
+\alpha \left( \frac{T - 273}{\lambda_1} - S_0 \right) = \frac{(T - 273)(T - T_0)}{\lambda_1} 
 $$
 
 which simplifies to:
@@ -120,7 +120,7 @@ $$
 T^2 + T(-\alpha - T_0 - 273) + \alpha \lambda_1 S + 273 (T + \alpha) = 0
 $$
 
-In a more complete approximation, using $ S = \frac{T - 273 - \lambda_2}{\lambda_1} $, the second-order equation for the value of $ T $ at the ice-ocean interface becomes:
+In a more complete approximation, using $ S = (T - 273 - \lambda_2)/\lambda_1 $, the second-order equation for the value of $ T $ at the ice-ocean interface becomes:
 
 $$
 T^2 + T(-\alpha - T_0 - 273 - \lambda_2) + \alpha \lambda_1 S + (273 + \lambda_2)(T + \alpha) = 0
@@ -129,10 +129,10 @@ $$
 We compare the four models at the same final time of 0.02. "Oceananigans T" represents the first approximation, while "Oceananigans T complete" represents the second one.
 
 
-<img src="/images/Exemples/1D_diff_melt/temp_salt_prof_all.png" width="800">
+<img src="/images/Exemples/1D_diff_melt/temp_salt_prof_all.png" width="1000">
 
 
 Comparing the error between the first Oceananigans implementation and the FEM model with the error from the quadratic equation implementation and the FEM model, we observe an increase in the error, as shown in the figure below.
 
 
-<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top_all.png" width="800">
+<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top_all.png" width="1000">
