@@ -76,10 +76,16 @@ We use this example to compute the relative error from different numerical resol
 Additionally, we compute the evolution of the relative error between the output of our simulation, using a numerical resolution of 1024 grid points, and the predicted values from the boundary equations. Its evolution is shown below,
 
 
-<img src="/images/Exemples/1D_diff_melt/Erreur_temp_salt_top_abs2.png" width="700">
+<img src="/images/Exemples/1D_diff_melt/Erreur_temp_salt_top_abs2.png" width="800">
 
 
-where $T_{\text{pred}}=273+\lambda_1 S + \lambda_2$, $T_{\text{obs}}=0.5(T_{n_z}+T_{n_z+1})$, $\partial_z S_{\text{pred}} = Le \, C_p \, L_f^{-1} \, S \, \partial_z T$ and $\partial_z S_{\text{obs}} = (S_{n_z}-S_{n_z+1})/dz$.
+where:
+$$
+T_{\text{pred}}=273+\lambda_1 S + \lambda_2\\
+T_{\text{obs}}=0.5(T_{n_z}+T_{n_z+1})\\
+\partial_z S_{\text{pred}} = Le \, C_p \, L_f^{-1} \, S \, \partial_z T\\
+\partial_z S_{\text{obs}} = (S_{n_z}-S_{n_z+1})/dz
+$$
 
 
 
@@ -87,16 +93,16 @@ To verify the accuracy of our implementation of the melt boundary condition in O
 
 
 
-<img src="/images/Exemples/1D_diff_melt/temp_salt_prof.png" width="700">
+<img src="/images/Exemples/1D_diff_melt/temp_salt_prof.png" width="800">
 
 
 The error between the two models for salinity and temperature at the boundary reaches:
 
-<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top.png" width="700">
+<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top.png" width="800">
 
 
 
-We also implement an alternative approach to include the melt conditions. In the first approximation, we combine the boundary conditions as $ S = \frac{T - 273}{\lambda_1} $ and $ \partial_z S = \frac{1}{\alpha} S \partial_z T $ as follows:
+We also implement an alternative approach to include the melt conditions. In the first approximation, we combine the boundary conditions as $ S = (T - 273)/\lambda_1 $ and $ \partial_z S = 1/\alpha S \partial_z T $ as follows:
 
 $$
 \frac{S - S_0}{\Delta z} = \frac{1}{\alpha} S \frac{T - T_0}{\Delta z}
@@ -123,10 +129,10 @@ $$
 We compare the four models at the same final time of 0.02. "Oceananigans T" represents the first approximation, while "Oceananigans T complete" represents the second one.
 
 
-<img src="/images/Exemples/1D_diff_melt/temp_salt_prof_all.png" width="700">
+<img src="/images/Exemples/1D_diff_melt/temp_salt_prof_all.png" width="800">
 
 
 Comparing the error between the first Oceananigans implementation and the FEM model with the error from the quadratic equation implementation and the FEM model, we observe an increase in the error, as shown in the figure below.
 
 
-<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top_all.png" width="700">
+<img src="/images/Exemples/1D_diff_melt/Diff_temp_salt_top_all.png" width="800">
