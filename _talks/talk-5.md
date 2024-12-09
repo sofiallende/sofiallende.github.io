@@ -56,7 +56,7 @@ $$
 \frac{\partial \tilde S}{\partial \tilde z}=\mathrm {Le}\, \mathrm{St}^{-1}\,(1+\tilde S)\, \frac{\partial \tilde T}{\partial \tilde z}
 $$
 
-List of the dimensionless control parameters appearing in the governing equations:\\
+List of the dimensionless control parameters appearing in the governing equations:
 
 
 
