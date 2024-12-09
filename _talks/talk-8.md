@@ -15,11 +15,11 @@ In the 3D simulations with constant initial conditions for temperature and salin
 1. Uniform temperature and salinity:
 
 $$
-T_i(x,y,z)=273.3
-S_i(x,y,z)=35
+T_i(x,y,z)=273.3\\
+S_i(x,y,z)=34.572
 $$
 
-<video src="/videos/3D/firstmode/ICTSunif_Le10.mp4" width="500" controls></video>
+<video src="/videos/3D/firstmode/ICTSunif_Le10.mp4" width="800" controls></video>
 
 
 2. Uniform salinity and stratified temperature:
