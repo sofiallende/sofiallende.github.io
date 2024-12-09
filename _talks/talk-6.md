@@ -1,5 +1,5 @@
 ---
-title: "Some results of the 2D simulation"
+title: "Results from 2D Simulations"
 collection: talks
 type: "Talk"
 permalink: /talks/talk-6
