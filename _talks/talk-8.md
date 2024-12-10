@@ -12,7 +12,7 @@ In the 3D simulations with constant initial conditions for temperature and salin
 
 
 
-1. Uniform temperature and salinity:
+## 1. Uniform temperature and salinity:
 
 $$
 T_i(x,y,z)=273.3\\
@@ -40,23 +40,23 @@ $$
 
 
 
-2. Uniform salinity and stratified temperature:
+## 2. Uniform salinity and stratified temperature:
 
 $$
-T_i(x,y,z)=273.3//
+T_i(x,y,z)=273.3+T_{melt}(1+2z)\\
 S_i(x,y,z)=35
 $$
 
 
-3. Uniform temperature and stratified salinity:
+## 3. Uniform temperature and stratified salinity:
 
 $$
-T_i(x,y,z)=273.3
+T_i(x,y,z)=273.3\\
 S_i(x,y,z)=33-4z
 $$
 
 
-4.Stratified temperature and salinity:
+## 4.Stratified temperature and salinity:
 
 $$
 T_i(x,y,z)=273.3+T_{melt}(1+2z)\\
@@ -65,15 +65,16 @@ $$
 
 4.1 $Le=1$
 <video src="/videos/3D/firstmode/ICTSstrat_Le1.mp4" width="800" controls></video>
-
+.
 
 4.2 $Le=2$
 <video src="/videos/3D/firstmode/ICTSstrat_Le2.mp4" width="800" controls></video>
-
+.
 
 4.3 $Le=10$
 <video src="/videos/3D/firstmode/ICTSstrat_Le10.mp4" width="800" controls></video>
-
+.
 
 4.4 $Le=100$
 <video src="/videos/3D/firstmode/ICTSstrat_Le100.mp4" width="800" controls></video>
+.
