@@ -19,7 +19,17 @@ T_i(x,y,z)=273.3\\
 S_i(x,y,z)=34.572
 $$
 
-<video src="/videos/3D/firstmode/ICTSunif_Le10_2.mp4" width="800" controls></video>
+<video src="/videos/3D/firstmode/ICTSunif_Le1.mp4" width="800" controls></video>
+
+<video src="/videos/3D/firstmode/ICTSunif_Le2.mp4" width="800" controls></video>
+
+<video src="/videos/3D/firstmode/ICTSunif_Le10.mp4" width="800" controls></video>
+
+<video src="/videos/3D/firstmode/ICTSunif_Le100.mp4" width="800" controls></video>
+
+
+<img src="/images/3D/rhominmax_ICTSunif.png" width="500">
+
 
 
 2. Uniform salinity and stratified temperature:
