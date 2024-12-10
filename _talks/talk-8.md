@@ -23,7 +23,7 @@ $$
 1.1 $Le=1$
 <video src="/videos/3D/firstmode/ICTSunif_Le1.mp4" width="800" controls></video>
 
-
+$\vspace{2cm}$
 1.2 $Le=2$
 <video src="/videos/3D/firstmode/ICTSunif_Le2.mp4" width="800" controls></video>
 
@@ -49,15 +49,15 @@ $$
 
 $$
 T_i(x,y,z)=273.3
-S_i(x,y,z)=33-4*z
+S_i(x,y,z)=33-4z
 $$
 
 
 4.Stratified temperature and salinity:
 
 $$
-T_i(x,y,z)=273.3+T_{melt}*(1+2*z)\\
-S_i(x,y,z)=33-4*z
+T_i(x,y,z)=273.3+T_{melt}(1+2z)\\
+S_i(x,y,z)=33-4z
 $$
 
 4.1 $Le=1$
