@@ -95,6 +95,24 @@ T_i(x,y,z)=273.3\\
 S_i(x,y,z)=33-4z
 $$
 
+### 2.1 $Le=1$
+<video src="/videos/3D/firstmode/ICTunifSstrat_Le1.mp4" width="800" controls></video>
+.
+
+### 2.2 $Le=2$
+<video src="/videos/3D/firstmode/ICTunifSstrat_Le2.mp4" width="800" controls></video>
+.
+
+### 2.3 $Le=10$
+<video src="/videos/3D/firstmode/ICTunifSstrat_Le10.mp4" width="800" controls></video>
+.
+
+
+### 2.4 $Le=100$
+<video src="/videos/3D/firstmode/ICTunifSstrat_Le100.mp4" width="800" controls></video>
+.
+
+
 
 ## 4.Stratified temperature and salinity:
 
