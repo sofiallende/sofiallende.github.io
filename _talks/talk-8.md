@@ -22,18 +22,21 @@ $$
 
 1.1 $Le=1$
 <video src="/videos/3D/firstmode/ICTSunif_Le1.mp4" width="800" controls></video>
+.
 
-$\vspace{2cm}$
+
 1.2 $Le=2$
 <video src="/videos/3D/firstmode/ICTSunif_Le2.mp4" width="800" controls></video>
+.
 
 
 1.3 $Le=10$
 <video src="/videos/3D/firstmode/ICTSunif_Le10.mp4" width="800" controls></video>
-
+.
 
 1.4 $Le=100$
 <video src="/videos/3D/firstmode/ICTSunif_Le100.mp4" width="800" controls></video>
+.
 
 
 
