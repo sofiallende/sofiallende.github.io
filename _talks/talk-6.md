@@ -28,6 +28,7 @@ The initial conditions are:
 
 The domain size is $L_x = 6 \, \text{m}$ and $L_z = 8 \, \text{m}$. The spatial resolution is varied, taking values of 256, 512, and 1024 grid points. The simulation runs for a total of 1 hour, with outputs recorded every minute.
 
+<br>
 
 Fig.1 and Fig.2 shows the spatial distribution of the horizontal velocity, temperature and salinity using differents spatial resolutions.
 
