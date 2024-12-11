@@ -47,8 +47,19 @@ The domain size is $L_x = 6 \, \text{m}$ and $L_z = 8 \, \text{m}$. The spatial 
 <img src="/images/2D/temperaturezoom_le1_1024.png" width="200">
 
 
+<video src="/videos/3D/firstmode/velocity_video_1024.mp4" width="800" controls></video>
+<video src="/videos/3D/firstmode/salinity_video_1024.mp4" width="800" controls></video>
+<video src="/videos/3D/firstmode/temperature_video_1024.mp4" width="800" controls></video>
+
+
+<img src="/images/2D/salt_prof_1024.png" width="200">
+<img src="/images/2D/density_prof_1024.png" width="200">
+
+
+<img src="/images/2D/salt_time_Le1_varingres" width="200">
+
 The figure below shows the evolution of the melt rate for the three different resolutions. As expected, the melt rate decreases following a $t^{-1/2}$ trend. When compared to a purely diffusive 1D model, we obtain similar values. We observe a convergence of the melt rate as the resolution increases, indicating that a resolution of 256 points is insufficient to capture the diffusive part accurately. A resolution of at least 512 points is necessary for reliable results.
-<img src="/images/2D/meltrate_T_Le1_LM.png" width="700">
+<img src="/images/2D/meltrate_T_Le1_LM.png" width="600">
 
 
 
