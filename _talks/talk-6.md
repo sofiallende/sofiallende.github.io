@@ -31,12 +31,11 @@ The domain size is $L_x = 6 \, \text{m}$ and $L_z = 8 \, \text{m}$. The spatial 
 <br>
 
 Fig.1 and Fig.2 shows the spatial distribution of the horizontal velocity, temperature and salinity using differents spatial resolutions.
-
 <img src="/images/2D/velocity_le1_256.png" width="200">
 <img src="/images/2D/velocity_le1_512.png" width="200">
 <img src="/images/2D/velocity_le1_1024.png" width="200">
 <figcaption>Fig.1 - Snapshot of the horizontal velocity at $t = 1 \, \text{hr}$. From left to right: simulations with 256, 512, and 1024 grid points. </figcaption>
-
+<br>
 
 <img src="/images/2D/velocityzoom_le1_256.png" width="200">
 <img src="/images/2D/velocityzoom_le1_512.png" width="200">
@@ -48,20 +47,20 @@ Fig.1 and Fig.2 shows the spatial distribution of the horizontal velocity, tempe
 <img src="/images/2D/temperaturezoom_le1_512.png" width="200">
 <img src="/images/2D/temperaturezoom_le1_1024.png" width="200">
 <figcaption>Fig.2 - Zoomed-in view of the horizontal velocity, temperature, and salinity at $t = 1 \, \text{hr}$. From left to right: simulations with 256, 512, and 1024 grid points. </figcaption>
-
+<br>
 
 The videos below show the evolution of the velocity, salinity, and temperature for the simulation with 1024 grid points.
 
 <video src="/videos/2D/velocity_video_1024.mp4" width="600" controls></video>
 <video src="/videos/2D/salinity_video_1024.mp4" width="600" controls></video>
 <video src="/videos/2D/temperature_video_1024.mp4" width="600" controls></video>
-
+<br>
 
 Fig.3 displays the evolution of the salinity and temperature profiles. We observe a decrease in both quantities as time progresses, as expected due to the melting configuration.
-
 <img src="/images/2D/salt_prof_1024.png" width="350">
 <img src="/images/2D/density_prof_1024.png" width="350">
 <figcaption>Fig.3 - Salinity and density profiles for all times. </figcaption>
+<br>
 
 
 The figure below shows the evolution of the melt rate for the three different resolutions. As expected, the melt rate decreases following a $t^{-1/2}$ trend. When compared to a purely diffusive 1D model, we obtain similar values. We observe a convergence of the melt rate as the resolution increases, indicating that a resolution of 256 points is insufficient to capture the diffusive part accurately. A resolution of at least 512 points is necessary for reliable results.
