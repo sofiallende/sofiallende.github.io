@@ -52,8 +52,8 @@ The domain size is $L_x = 6 \, \text{m}$ and $L_z = 8 \, \text{m}$. The spatial 
 <video src="/videos/2D/temperature_video_1024.mp4" width="800" controls></video>
 
 
-<img src="/images/2D/salt_prof_1024.png" width="300">
-<img src="/images/2D/density_prof_1024.png" width="300">
+<img src="/images/2D/salt_prof_1024.png" width="400">
+<img src="/images/2D/density_prof_1024.png" width="400">
 
 
 <img src="/images/2D/salt_time_Le1_varingres.png" width="600">
