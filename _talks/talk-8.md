@@ -15,6 +15,21 @@ We focus on the region very close to the boundary; therefore, our simulation dom
 The dynamic viscosity ($\nu$) and thermal diffusivity ($\kappa_T$) are both fixed at $1.8 \times 10^{-6}$. The salinity diffusivity ($\kappa_S$) is varied between $1.8 \times 10^{-6}$ and $1.8 \times 10^{-8}$ to achieve different values of the Lewis number. The density profile is calculated based on the linear approximation: $\rho = \rho_0 \left[ 1 - \beta_T (T - T_0) + \beta_S (S - S_0) \right]$, where $\rho_0 = 1000 \, \text{kg/m}^3$, $T_0 = 277.15 \, \text{K}$, and $S_0 = 0 \, \text{g/kg}$. The thermal expansion coefficient is $\beta_T = 3.87 \times 10^{-5} \, \text{K}^{-1}$, and the haline contraction coefficient is $\beta_S = 7.86 \times 10^{-4} \, \text{(g/kg)}^{-1}$. Finally, the melting temperature ($T_{\text{melt}}$) is determined by the equation: $ T_{\text{melt}} = \lambda_1 S + \lambda_2$ where $\lambda_1 = -5.73 \times 10^{-2} \, \text{K/(g/kg)}$ and $\lambda_2 = 8.32 \times 10^{-2} \, \text{K}$.
 
 
+The behavior of the fastest-growing modes in our system follows key principles established in the literature. According to Radko (2013), the fastest-growing modes are always vertically invariant. Furthermore, the stability and instability of the system depend on specific criteria:
+
+1. Fingering Systems:
+
+    - The system is double-diffusively unstable if $1 < R_0 < \tau^{-1}$.
+
+    - The system becomes linearly stable if $R_0 > \tau^{-1}$.
+
+2. Overturning Double-Diffusive Convection (ODDC) Systems:
+
+    - The system is double-diffusively unstable if $1 < R_0^{-1} < \frac{Pr + 1}{Pr + \tau}$.
+
+    - The system becomes linearly stable if $R_0^{-1} > \frac{Pr + 1}{Pr + \tau}$.
+
+These conditions reveal one of the most remarkable properties of the low $Pr$ (Prandtl number) limit: the dramatic increase in the range of inverse density ratios that are linearly unstable to ODDC. For water, where $Pr \sim 7$ and $\tau \sim 0.01$, the maximum value of $R_0^{-1}$ is approximately $1.1$. However, as $Pr \sim \tau \ll 1$, this range increases to the order of $O(Pr^{-1})$.
 
 ## 1. Uniform temperature and salinity:
 
