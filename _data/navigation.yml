@@ -1,0 +1,23 @@
+# main links links
+main:
+  - title: "Home"
+    url: /about/
+
+  - title: "Adverts!"
+    url: /adverts/
+
+  - title: "Papers"
+    url: /papers/
+
+  - title: "Selected talks"
+    url: /talks/    
+                
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Thesis/Reports"
+    url: /reports/
+
+  - title: "Collaborators"
+    url: /collaborators/
+
