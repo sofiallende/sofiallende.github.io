@@ -41,11 +41,11 @@ layout: default
           {% if page.collection == 'publications' %}
                     <p>
                   {% if page.type %}<i> {{page.type}} @</i> {% endif %}
-                  {% if page.venuelink %}<a href="{{ page.venuelink }}">{% endif %}
+                  {% if page.paperurl %}<a href="{{ page.paperurl }}">{% endif %}
                   {% if page.venue %} {{ page.venue}} {% endif %}
                   {% if page.venuelink %}</a>{% endif %}
                   {% if page.since %} since {{ page.since }}{% endif %}
-                  {% if page.date %}{{ page.date | date: '%B' }}{% endif %}
+                  {% if page.date %} published {{ page.date | date: '%B %Y' }}{% endif %}
                   {% if page.datefinal %}{{ page.datefinal | date: '-%B %Y' }}{% endif %}
                   </p>
                   {% if page.cohost %}  <p> with {{ page.cohost}} </p>{% endif %}
