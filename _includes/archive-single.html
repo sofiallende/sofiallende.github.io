@@ -34,6 +34,13 @@
       {% endif %}
     </h2>
         {% if post.collection == 'publications' %}
+        {% if post.number %}  
+	<i> {{ post.number }}</i> 
+        {% elseif %}
+	<i> 10</i> 
+        {% endif %}
+
+
         {% endif %}
 
 
