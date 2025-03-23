@@ -9,8 +9,8 @@ main:
   - title: "OSII"
     url: /osii/ 
     
-  - title: "Papers"
-    url: /papers/
+  - title: "Publications"
+    url: /publications/
 
   - title: "Selected talks"
     url: /talks/    
