@@ -1,11 +1,10 @@
 ---
 title: "Governing Equations at the Ice-Ocean Interface"
-collection: talks
-type: "Talk"
-permalink: /talks/talk-1
-venue: "IRPHE"
+collection: osii
+type: osii
+permalink: /osii/osii-1
 date: 2024-07-04
-location: "Marseille, France"
+excerpt: "informal notes on modeling the ice-ocean interface"
 ---
 
 To model the ice-ocean boundary layer, we utilize the Navier-Stokes equations under the Boussinesq approximation. In the bulk, the governing equations can be written as follows:

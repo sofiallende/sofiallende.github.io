@@ -50,6 +50,12 @@ layout: default
 
           {% endif %}
 
+          {% if page.collection == 'osii' %}
+                    <p>
+                  {% if page.type %}<i> {{page.type}} @</i> {% endif %}
+                 {% if page.date %} {{ page.date | date: '%B %Y' }}{% endif %}
+                    </p>
+          {% endif %}
 
     
         </header>
