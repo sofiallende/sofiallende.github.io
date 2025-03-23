@@ -3,6 +3,7 @@ title: "Dynamics and fragmentation of small inextensible fibres in turbulence"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-4
 date: 2020/7/10
+number: 2
 venue: 'Philosophical Transactions of the Royal Society A'
 paperurl: 'http://sofiallende.github.io/files/allende2020fragmentation.pdf'
 citation: 'Allende, S., Henry, C., & Bec, J. (2020). &quot;Dynamics and fragmentation of small inextensible fibres in turbulence.&quot; <i>Philosophical Transactions of the Royal Society A</i>. 1(2).'
