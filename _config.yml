@@ -53,13 +53,13 @@ atom_feed:
 author:
   name             : " "
 #  employer         : "IRPHE"
-  email            : "sofia.allende &lt AT &gt <br> univ-amu.fr"
+  email            : "sofia.allende@univ-amu.fr"
   avatar           : "profile.jpg"
   cv               : "1_curriculum_en.pdf"
-  location              : "Institut de Physique de Nice<br>17 rue Julien Lauprêtre<br>06200 Nice"                      
+  location              : "Institut de Recherche sur les Phénomènes Hors Équilibre (IRPHE) <br> Marseille, France"                      
 #  location         : "Institut de Physique de Nice,\\ 17 rue Julien Lauprêtre\\  06200 Nice"
-  orcid            : "0000-0003-2371-7242"
-  googlescholar    : "https://scholar.google.com/citations?user=Oqds5dEAAAAJ&hl=fr"
+  orcid            : "0000-0002-9590-6643"
+  googlescholar    : "https://scholar.google.com/citations?user=P7sfVAgAAAAJ&hl=en"
   github           : "sofiallende"
 
 # Reading Files
