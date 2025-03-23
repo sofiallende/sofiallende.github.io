@@ -5,7 +5,7 @@ type: osii
 permalink: /osii/osii-1
 date: 2024-07-04
 number: 1
-excerpt: "informal notes on modeling the ice-ocean interface"
+excerpt: "Informal notes on modeling the ice-ocean interface"
 ---
 
 To model the ice-ocean boundary layer, we utilize the Navier-Stokes equations under the Boussinesq approximation. In the bulk, the governing equations can be written as follows:
@@ -125,6 +125,6 @@ $$
 
 
 
-<iframe src="/files/governing_equations.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+<iframe src="/files/osii/governing_equations.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 
