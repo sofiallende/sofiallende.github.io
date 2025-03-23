@@ -119,6 +119,9 @@ kramdown:
 
 # Collections
 collections:
+  osii:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -187,6 +190,16 @@ defaults:
       share: false
       related: false
 
+  # _osii
+  - scope:
+      path: ""
+      author_profile: true
+      type: osii
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      related: false
 
 # Sass/SCSS
 sass:
