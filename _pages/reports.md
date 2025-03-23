@@ -1,6 +1,6 @@
 ---
 permalink: /reports/
-title: "Reports"
+title: "Thesis"
 author_profile: true
 ---
 
