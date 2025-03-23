@@ -34,9 +34,6 @@
       {% endif %}
     </h2>
         {% if post.collection == 'publications' %}
-          <p>
-          <i> Posted on </i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }} 
-        </p>
         {% endif %}
 
 
