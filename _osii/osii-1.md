@@ -4,6 +4,7 @@ collection: osii
 type: osii
 permalink: /osii/osii-1
 date: 2024-07-04
+number: 1
 excerpt: "informal notes on modeling the ice-ocean interface"
 ---
 
