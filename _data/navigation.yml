@@ -3,9 +3,12 @@ main:
   - title: "Home"
     url: /about/
 
-  - title: "Adverts!"
-    url: /adverts/
+#  - title: "Adverts!"
+#    url: /adverts/
 
+  - title: "OSII"
+    url: /osii/ 
+    
   - title: "Papers"
     url: /papers/
 
