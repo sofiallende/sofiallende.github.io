@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2010-10-01-paper-title-number-5
 date: 2023/8/10
 number: 5
+cohost: T. Fichefet, H. Goosse & AM. Treguier
 venue: 'Ocean Modelling'
 paperurl: 'http://sofiallende.github.io/files/allende2023ontheability.pdf'
 citation: 'Allende, S., Fichefet, T., Goosse, H., & Treguier, A. M. (2023). &quot;On the ability of OMIP models to simulate the ocean mixed layer depth and its seasonal cycle in the Arctic Ocean.&quot; <i>Ocean Modelling</i>, 184, 102226.'

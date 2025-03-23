@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/allende2018dynamics
 date: 2018/10/12
 number: 1
+cohost: J. Bec & C. Henry
 venue: 'Physical review letters'
 paperurl: 'http://sofiallende.github.io/files/allende2018dynamics.pdf'
 citation: 'Allende, S., Henry, C., & Bec J (2018). &quot;Stretching and buckling of small elastic fibers in turbulence.&quot; <i>Physical Review Letters</i>. 1(1).'
