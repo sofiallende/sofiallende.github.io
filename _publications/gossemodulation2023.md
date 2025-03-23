@@ -3,7 +3,7 @@ title: " Modulation of the seasonal cycle of the Antarctic sea ice extent by sea
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-3
 date: 2023/1/01
-number: 5
+number: 3
 venue: 'The Cryosphere'
 paperurl: 'http://sofiallende.github.io/files/gossemodulation2023.pdf'
 citation: 'Goosse, H., Allende, S., Bitz, C. M., Blanchard-Wrigglesworth, E., Eayrs, C., Fichefet, T., ... & van Lipzig, N. P. (2023). &quot;c Modulation of the seasonal cycle of the Antarctic sea ice extent by sea ice processes and feedbacks with the ocean and the atmosphere&quot; <i>The Cryosphere</i>,17(1), 407-425.'

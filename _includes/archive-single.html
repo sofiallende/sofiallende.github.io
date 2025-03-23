@@ -48,6 +48,12 @@
         </p>
         {% endif %}
     
+        {% if post.collection == 'publications' %}
+          <p>
+          <i> {{ post.venue }} </i> {{ post.date | default: "1900-01-01" | date: "%B  %Y" }} 
+        </p>
+        {% endif %}
+    
 
         {% if post.collection == 'talks' %}
           <p>
