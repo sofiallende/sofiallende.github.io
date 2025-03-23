@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2010-10-01-paper-title-number-4
 date: 2023/7/10
 venue: 'Journal of Fluid Mechanics'
-number:1
+number: 1
 cohost: J. Bec
 paperurl: 'http://sofiallende.github.io/files/allende2023velocity.pdf'
 citation: 'Allende, S., & Bec, J. (2023). &quot;Velocity and acceleration statistics of heavy spheroidal particles in turbulence.&quot; <i>OJournal of Fluid Mechanics</i>, 967, R4.'
