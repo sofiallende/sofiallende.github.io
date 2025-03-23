@@ -176,6 +176,16 @@ defaults:
       share: false
       related: false
 
+  # _publications
+  - scope:
+      path: ""
+      author_profile: true
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      related: false
 
 
 # Sass/SCSS
