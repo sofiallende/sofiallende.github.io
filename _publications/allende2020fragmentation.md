@@ -6,6 +6,7 @@ date: 2020/07/10
 number: 2
 cohost: J. Bec & C. Henry
 venue: 'Philosophical Transactions of the Royal Society A'
+excerpt: ""
 citation: 'Allende, S., Henry, C., & Bec, J. (2020). &quot;Dynamics and fragmentation of small inextensible fibres in turbulence.&quot; <i>Philosophical Transactions of the Royal Society A</i>.'
 ---
 
