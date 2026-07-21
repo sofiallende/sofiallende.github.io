@@ -17,5 +17,4 @@ author_profile: true
 
 # In preparation
 
-- Characterizing mixing-length growth and melt rates at the ice-ocean interface
-- Summer and winter deepening of the mixed layer in pan-Arctic seas
+- - Effects of Stratification on Melting at the Ice–Ocean Interface
