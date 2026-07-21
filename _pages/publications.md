@@ -4,8 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+  You can also find my articles on <u><a href="{{ author.googlescholar }}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
@@ -14,10 +15,7 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
+# In preparation
 
-# Coming soon!
-
-- Characterizing Mixing-Length Growth and  Melt Rates at the Ice-Ocean Interface
-- Summer and winter deppening of the mixed layer in pan-Arctic Seas
-
-
+- Characterizing mixing-length growth and melt rates at the ice-ocean interface
+- Summer and winter deepening of the mixed layer in pan-Arctic seas
