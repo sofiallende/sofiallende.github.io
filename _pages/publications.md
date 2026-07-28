@@ -17,4 +17,4 @@ author_profile: true
 
 # In preparation
 
-- - Effects of Stratification on Melting at the Ice–Ocean Interface
+- Effects of Stratification on Melting at the Ice–Ocean Interface

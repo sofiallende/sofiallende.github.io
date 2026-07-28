@@ -9,8 +9,9 @@
 locale                   : "en-US"
 title                    : "Sofia Allende"
 title_separator          : "-"
-name                     : 
-description              :  
+name                     : "Sofia Allende Contador"
+description              : "Personal academic website of Sofia Allende Contador, a postdoctoral researcher in physical oceanography and ocean–sea ice interactions."
+url: "https://sofiallende.github.io" 
 url                      : https://sofiallende.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sofiallende/sofiallende.github.io"
